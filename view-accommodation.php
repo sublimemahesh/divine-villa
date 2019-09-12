@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>The Divine Villa</title>
+    <title>Accommodation - The Devine Villa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicons -->
@@ -29,20 +29,18 @@
     <div class="overlay-close-menu"></div>
 
     <!-- Header -->
-    <?php
-    include 'header.php';
-    ?>
+   <?php include './header.php';?>
 
     <!-- Main Content -->
     <div id="main-content">
         <div class="page-title">
             <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
                 <div class="content container">
-                    <h1 class="heading_primary">Room Detail</h1>
+                    <h1 class="heading_primary">Accommodation Detail</h1>
                     <ul class="breadcrumbs">
                         <li class="item"><a href="./">Home</a></li>
                         <li class="item"><span class="separator"></span></li>
-                        <li class="item"><a href="accommodations.php">Rooms</a></li>
+                        <li class="item"><a href="accommodations.php">Accommodation</a></li>
                         <li class="item"><span class="separator"></span></li>
                         <li class="item active">CLASSIC ROOM</li>
                     </ul>
@@ -65,9 +63,9 @@
                             <h2 class="title">Classic Room</h2>
                             <div class="social-share">
                                 <ul>
-                                    <li><a class="link facebook" title="Facebook" href="http://www.facebook.com/sharer/sharer.php?u=#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-facebook"></i></a></li>
-                                    <li><a class="link twitter" title="Twitter" href="https://twitter.com/intent/tweet?url=#&amp;text=TheTitleBlog" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-twitter"></i></a></li>
-                                    <li><a class="link google" title="Google" href="https://plus.google.com/share?url=#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-googleplus"></i></a>
+                                    <li><a class="link facebook" title="Facebook" href="#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-facebook"></i></a></li>
+                                    <li><a class="link twitter" title="Twitter" href="#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-twitter"></i></a></li>
+                                    <li><a class="link google" title="Google" href="#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-googleplus"></i></a>
                                 </ul>
                             </div>
                         </div>
@@ -108,6 +106,34 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="room_pricing">
+                            <h3 class="title style-01">PRICING PLANS</h3>
+                            <table class="room-pricing">
+                                <thead>
+                                    <tr>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri</th>
+                                        <th>Sat</th>
+                                        <th>Sun</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>$200</td>
+                                        <td>$150</td>
+                                        <td>$150</td>
+                                        <td>$100</td>
+                                        <td>$300</td>
+                                        <td>$210</td>
+                                        <td>$250</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                     
                     </div>
                 </main>
                 <aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
@@ -182,26 +208,23 @@
                             </div>
                         </form>
                     </div>
-                    
-                    <div class="wd wd-categories">
-                        <h3 class="wd-title">Other Rooms</h3>
-                        <ul>
-                            <li><a href="#">Room 1</a></li>
-                            <li><a href="#">Room 2</a></li>
-                            <li><a href="#">Room 3</a></li>
-                            <li><a href="#">Room 4</a></li>
-                            <li><a href="#">Room 5</a></li>
-                        </ul>
-                    </div>
+                      <div class="wd wd-categories">
+                                <h3 class="wd-title">Categories</h3>
+                                <ul>
+                                    <li><a href="#">HOTEL</a></li>
+                                    <li><a href="#">ACTIVITIES</a></li>
+                                    <li><a href="#">RESTAURANT</a></li>
+                                    <li><a href="#">TIP TRAVEL</a></li>
+                                    <li><a href="#">ACTIVITIES</a></li>
+                                </ul>
+                            </div>
                 </aside>
             </div>
         </div>
 
     </div>
     <!-- Footer -->
-    <?php
-    include 'footer.php';
-    ?>
+   <?php include './footer.php';?>
 </div><!-- wrapper-container -->
 
 <div id="back-to-top">

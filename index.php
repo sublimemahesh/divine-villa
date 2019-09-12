@@ -325,7 +325,7 @@
                                                     <h3 class="title"> <a href="#">Sea Turtle Hatchery</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Habaraduwa and Koggala located some sea turtle hatcheries, a totally nonprofit program to conserve this endangered animal. In most of nights, </div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -338,7 +338,7 @@
                                                     <h3 class="title"> <a href="#">White Tea Factory</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for</div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -351,7 +351,7 @@
                                                     <h3 class="title"> <a href="#">Yatagala Temple</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Buddhist monastery located very near to world famous Unawatuna with a history of more than 2000 years. The monastery was built by the king Dewanampiya...</div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -364,7 +364,7 @@
                                                     <h3 class="title"> <a href="#">Yala National Park</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A quite nice place to peep the nature and one of great declaration for the dry zone national park. A well-known place around the world with a high den...</div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -377,7 +377,7 @@
                                                     <h3 class="title"> <a href="#">Japanese Peace  Pagoda</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A Buddhist shrine located on top of the Rumassala Mountain which represents the world peace and one of emblem for peace which has been created by Japa...</div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -390,7 +390,7 @@
                                                     <h3 class="title"> <a href="#">Galle Fort</a></h3>
 <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A world heritage fort which created by Dutch in Colonial Era, that finds ruins in the colonial era. Galle also famous for natural harbor and this is o...</div>
-                                                    <a href="#" class="read-more">More Info</a>
+                                                    <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
