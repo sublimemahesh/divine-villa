@@ -108,30 +108,41 @@
                     <div class="empty-space"></div>
                     <div class="h1-introduce">
                         <div class="container">
-                            <div class="row">
+                            <div class="row" style="border: 3px solid #6e2759; padding-top: 15px;padding-bottom: 15px;">
+
+
                                 <div class="col-sm-6">
                                     <div class="sc-heading style-02">
-                                        <h3 class="title">Welcome</h3>
+                                        <h3 class="title" style="color: #6e2759;">Welcome</h3>
+<!--                                        <span class="dark-title">WELCOME TO</span>-->
                                         <div class="description">
-                                            <p>The pearl of Indian Ocean in a place to be, will invite you for a paradise experience in the Southern West Province close to Unawatuna and Galle.</p>
-                                            <p>We will welcome you in  a luxury boutique villa with an outstanding architectural designs combining wild life, beautiful Ocean scenic view and paddy fields.</p>
-                                            <p>The Divine Luxury Boutique Villa will provide you the best in class services combined with and unbelievable panoramic view from a top hill location.</p>
+
+
+
+                                            <p>The pearl of Indian Ocean in a place to be, will invite you for a paradise experience in
+                                                the Southern West Province close to Unawatuna and Galle.</p>
+                                            <p>We will welcome you in a luxury boutique villa with an outstanding architectural
+                                                designs combining wild life, beautiful Ocean scenic view and paddy fields.</p>
+                                            <p>The Divine Luxury Boutique Villa will provide you the best in class services
+                                                combined with and unbelievable panoramic view from a top hill location.</p>
                                         </div>
                                         <div class="head-button">
-                                            <a href="about.php" class="more-info">More Info</a>
+                                            <a href="#" class="more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="sc-img-box row">
                                         <div class="col-sm-6">
-                                            <a href="about.php"><img src="images/home/h1-img1.jpg" alt=""></a>
+                                            <a href="#"><img src="images/home/h1-img1.jpg" alt=""></a>
                                         </div>
                                         <div class="col-sm-6">
-                                            <a href="about.php"><img src="images/home/h1-img2.jpg" alt=""></a>
+                                            <a href="#"><img src="images/home/h1-img2.jpg" alt=""></a>
                                         </div>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
@@ -147,17 +158,52 @@
                                 </div>
                                 <div class="sc-posts style-01">
                                     <div class="row">
-                                        <div class="item-first col-sm-12 col-md-6">
-                                            <div class="post col-sm-12 col-md-12">
+                                        <div class="item col-sm-12 col-md-6">
+                                            <div class="post col-sm-6 col-md-6">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="images/home/vegi.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                       
+                                                        <h3 class="title"> <a href="">Restaurant Including Vegetarian</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
                                                         <a href="#"><img src="images/home/service-7.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                        <div class="category"><a href="#">Villa</a></div>
-                                                        <h3 class="title"> <a href="#"> Cycling</a></h3>
-                                                        <!--<div class="date"><i class="ion-android-calendar"></i>15 July, 2018</div>-->
-                                                        <div class="summary">We continuously strive to enhance our living and working environments. The environments we live in today are almost unrecognisable from those that existed.</div>
+                                                     
+                                                        <h3 class="title"> <a href="#">Mountain Bikes</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-6">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="images/home/spa2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                      
+                                                        <h3 class="title"> <a href="#">Spa Pavillon</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-6">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                       
+                                                        <h3 class="title"> <a href="#">Fitness Pavillon</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -169,32 +215,8 @@
                                                         <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                        <div class="category"><a href="#">Villa</a></div>
-                                                        <h3 class="title"> <a href="">Meditation</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/spa2.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="category"><a href="#">Relax</a></div>
-                                                        <h3 class="title"> <a href="#">Spa</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/service-4.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <div class="category"><a href="#">Villa</a></div>
-                                                        <h3 class="title"> <a href="#">Fitness</a></h3>
+                                                      
+                                                        <h3 class="title"> <a href="">Meditation Area</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -205,8 +227,33 @@
                                                         <a href="#"><img src="images/home/service-6.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                        <div class="category"><a href="#">Villa</a></div>
-                                                        <h3 class="title"> <a href="#">Sri Lankan Cooking Lesson</a></h3>
+                                                        
+                                                        <h3 class="title"> <a href="#">Sri Lankan Cocking Lessons</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-6">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="images/home/tea-pluckers.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                       
+                                                        <h3 class="title"> <a href="#">Plucking Of The Leaves</a></h3>
+                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-6">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="#"><img src="images/home/25-conciergeries-1030x583.jpeg" alt=""></a>
+
+                                                    </div>
+                                                    <div class="content">
+                                                     
+                                                        <h3 class="title"> <a href="#">Conciergerie Services</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -323,7 +370,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="#">Sea Turtle Hatchery</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Habaraduwa and Koggala located some sea turtle hatcheries, a totally nonprofit program to conserve this endangered animal. In most of nights, </div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
@@ -332,12 +379,12 @@
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/4.jpg" alt=""></a>
+                                                    <a href="#"><img src="images/home/beach.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">White Tea Factory</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for</div>
+                                                    <h3 class="title"> <a href="#">Unawatuna Beach</a></h3>
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <div class="summary">Golden sandy beach with a beautifully curved located near Galle city. Sun kissed beautiful </div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
@@ -349,7 +396,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="#">Yatagala Temple</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Buddhist monastery located very near to world famous Unawatuna with a history of more than 2000 years. The monastery was built by the king Dewanampiya...</div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
@@ -358,12 +405,12 @@
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/8.jpg" alt=""></a>
+                                                    <a href="#"><img src="images/home/5.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Yala National Park</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">A quite nice place to peep the nature and one of great declaration for the dry zone national park. A well-known place around the world with a high den...</div>
+                                                    <h3 class="title"> <a href="#">Dalawalla Beach</a></h3>
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <div class="summary">Dalawella beach is located in the Unawatuna area southwest on the island of Sri Lanka. We discovered this tranquil spot while staying in central Unawatuna...</div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
@@ -375,7 +422,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="#">Japanese Peace  Pagoda</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A Buddhist shrine located on top of the Rumassala Mountain which represents the world peace and one of emblem for peace which has been created by Japa...</div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
@@ -388,7 +435,7 @@
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="#">Galle Fort</a></h3>
-<!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A world heritage fort which created by Dutch in Colonial Era, that finds ruins in the colonial era. Galle also famous for natural harbor and this is o...</div>
                                                     <a href="#" class="read-more more-info">More Info</a>
                                                 </div>
@@ -475,11 +522,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-1" class="btn-gallery"><img src="images/home/gallery/1.jpg" alt=""></a>
-<!--                                                <div id="gallery-1" class="hidden">
-                                                    <a  href="images/gallery/img-10.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-6.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-11.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-1" class="hidden">
+                                                                                                    <a  href="images/gallery/img-10.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-6.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-11.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
                                             <div class="content">
                                                 <h4 class="title"><a href="#">Sigiriya</a></h4>
@@ -489,11 +536,11 @@
                                             <div class="gallery">
                                                 <div class="gallery">
                                                     <a href="#gallery-2" class="btn-gallery"><img src="images/home/gallery/2.jpg" alt=""></a>
-<!--                                                    <div id="gallery-2" class="hidden">
-                                                        <a  href="images/gallery/img-2.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                        <a  href="images/gallery/img-7.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                        <a  href="images/gallery/img-8.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                    </div>-->
+                                                    <!--                                                    <div id="gallery-2" class="hidden">
+                                                                                                            <a  href="images/gallery/img-2.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
+                                                                                                            <a  href="images/gallery/img-7.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
+                                                                                                            <a  href="images/gallery/img-8.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
+                                                                                                        </div>-->
                                                 </div>
                                             </div>
                                             <div class="content">
@@ -503,11 +550,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-3" class="btn-gallery"><img src="images/home/gallery/3.jpg" alt=""></a>
-<!--                                                <div id="gallery-3" class="hidden">
-                                                    <a  href="images/gallery/img-12.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-1.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-9.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-3" class="hidden">
+                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-1.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-9.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
                                             <div class="content">
                                                 <h4 class="title"><a href="#">Haputhale</a></h4>
@@ -516,11 +563,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-4" class="btn-gallery"><img src="images/home/gallery/4.jpg" alt=""></a>
-<!--                                                <div id="gallery-4" class="hidden">
-                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-4" class="hidden">
+                                                                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
                                             <div class="content">
                                                 <h4 class="title"><a href="#">Dalawella Beach</a></h4>
@@ -529,11 +576,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-5" class="btn-gallery"><img src="images/home/gallery/5.jpg" alt=""></a>
-<!--                                                <div id="gallery-5" class="hidden">
-                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-1.jpg"><img src="images/gallery/img-1.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-9.jpg"><img src="images/gallery/img-9.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-5" class="hidden">
+                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-1.jpg"><img src="images/gallery/img-1.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-9.jpg"><img src="images/gallery/img-9.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
 
                                             <div class="content">
@@ -543,11 +590,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-7" class="btn-gallery"><img src="images/home/gallery/6.jpg" alt=""></a>
-<!--                                                <div id="gallery-6" class="hidden">
-                                                    <a  href="images/gallery/img-4.jpg"><img src="images/gallery/img-4.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-3.jpg"><img src="images/gallery/img-3.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-6" class="hidden">
+                                                                                                    <a  href="images/gallery/img-4.jpg"><img src="images/gallery/img-4.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-3.jpg"><img src="images/gallery/img-3.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
                                             <div class="content">
                                                 <h4 class="title"><a href="#">Fishing</a></h4>
@@ -556,11 +603,11 @@
                                         <div class="item">
                                             <div class="gallery">
                                                 <a href="#gallery-7" class="btn-gallery"><img src="images/home/gallery/7.jpg" alt=""></a>
-<!--                                                <div id="gallery-7" class="hidden">
-                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
-                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
-                                                </div>-->
+                                                <!--                                                <div id="gallery-7" class="hidden">
+                                                                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
+                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
+                                                                                                </div>-->
                                             </div>
                                             <div class="content">
                                                 <h4 class="title"><a href="#">Mirissa</a></h4>
