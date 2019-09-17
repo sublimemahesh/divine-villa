@@ -339,15 +339,60 @@
                         </div>
                     </div>
 
-                    <div class="h1-banner">
+         <div class="h1-banner">
                         <div class="sc-content-overlay">
                             <div class="container rectangle-overlay">
-                                <div class="sc-box style-01 text-center">
-                                    <h3 class="title">Get up to 20% off on your next
-                                        <br> travel</h3>
-                                    <p class="description">Choose the package you would like to offer to your clients and
-                                        <br> send us an inquiry using the contact form.</p>
-                                    <div class="button-box"><a href="#" class="btn-box">Get it now</a></div>
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <div class="sc-box style-01 text-center">
+                                            <h3 class="title"> Villa<br>
+                                                Facilities</h3>
+                                            <p class="description">Choose the package you would like to offer to your clients and
+                                                <br> send us an inquiry using the contact form.</p>
+                                            <div class="button-box"><a href="#" class="btn-box">Get it now</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7">
+                                        <div class="box-facilities">
+                                            <div class="row">
+
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/005-wifi.png">
+                                                    <h5 class="box-title">Wifi</h5>
+                                                    <p class="description">Lose yourself in the lush textures, rich colors and French amenities.</p>
+                                                </div>
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/004-tv.png">
+                                                    <h5 class="box-title">SAT TV</h5>
+                                                    <p class="description">Finnish sauna and gym, comfortable massage rooms.</p>
+                                                </div>
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/002-cctv.png">
+                                                    <h5 class="box-title">CCTV</h5>
+                                                    <p class="description">Discover our global cuisine, set menus, extensive wine list.</p>
+                                                </div>
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/003-ac.png">
+                                                    <h5 class="box-title">AC</h5>
+                                                    <p class="description">Finnish sauna and gym, comfortable massage rooms.</p>
+                                                </div>
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/006-wheelchair.png">
+                                                    <h5 class="box-title">Disable access</h5>
+                                                    <p class="description">For the perfect family holidays.</p>
+                                                </div>
+                                                <div class="box-item col-md-4">
+                                                    <img src="images/facilities/001-car.png">
+                                                    <h5 class="box-title">Free Parking</h5>
+                                                    <p class="description">For the perfect family holidays.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
                                 </div>
                             </div>
                         </div>
