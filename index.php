@@ -341,7 +341,7 @@
 
          <div class="h1-banner">
                         <div class="sc-content-overlay">
-                            <div class="container rectangle-overlay">
+                            <div class="container rectangle-overlay2">
                                 <div class="row">
                                     <div class="col-md-5">
                                         <div class="sc-box style-01 text-center">

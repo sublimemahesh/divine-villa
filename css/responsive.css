@@ -570,12 +570,18 @@
 }
 
 @media (max-width: 767px) {
+        .rectangle-overlay2::before{
+        left: 180px;
+    }
     .shop-content .product-meta {
         float: left;
     }
 }
 
 @media (max-width: 667px) {
+        .rectangle-overlay2::before{
+        left: 120px;
+    }
     .sc-tourist.style-01 .content .inner .title {
         font-size: 34px;
     }
@@ -624,6 +630,9 @@
 }
 
 @media (max-width: 600px) {
+        .rectangle-overlay2::before{
+        left: 120px;
+    }
     .sc-travel.style-02 .owl-dots {
         margin-top: 15px;
     }
@@ -740,6 +749,9 @@
 }
 
 @media (max-width: 568px) {
+       .rectangle-overlay2::before{
+        left: 120px;
+    }
     .sc-reason .list-reason li i {
         color: #000000;
     }
@@ -846,9 +858,7 @@
         width: 100%;
         float: none;
     }
-      .rectangle-overlay::before {
-        left:35px
-    }
+   
 }
 
 @media (max-width: 480px) {
@@ -949,9 +959,7 @@
     .sc-quote.style-01 a.btn-quote {
         margin-left: 0;
     }
-      .rectangle-overlay::before {
-        left:35px
-    }
+   
 }
 
 @media (max-width: 414px) {
@@ -1058,9 +1066,10 @@
         margin-bottom: 0px;
         margin-top: 0px;
     }
-    .rectangle-overlay::before {
-        left:35px
+    .rectangle-overlay2::before{
+        left: 10px;
     }
+   
 
 
 }
@@ -1084,6 +1093,9 @@
     }
       .rectangle-overlay::before {
         left:0px
+    }
+    .rectangle-overlay2::before{
+        left: 5px;
     }
 }
 
