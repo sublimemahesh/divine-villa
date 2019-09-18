@@ -33,7 +33,7 @@
 
             <!-- Header -->
             <?php
-            include 'header.php';
+            include 'header_1.php';
             ?>
 
             <!-- Main Content -->
