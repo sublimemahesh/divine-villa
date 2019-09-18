@@ -106,33 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="room_pricing">
-                            <h3 class="title style-01">PRICING PLANS</h3>
-                            <table class="room-pricing">
-                                <thead>
-                                    <tr>
-                                        <th>Mon</th>
-                                        <th>Tue</th>
-                                        <th>Wed</th>
-                                        <th>Thu</th>
-                                        <th>Fri</th>
-                                        <th>Sat</th>
-                                        <th>Sun</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>$200</td>
-                                        <td>$150</td>
-                                        <td>$150</td>
-                                        <td>$100</td>
-                                        <td>$300</td>
-                                        <td>$210</td>
-                                        <td>$250</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                     
                      
                     </div>
                 </main>

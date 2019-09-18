@@ -74,10 +74,9 @@
                             <div class="sc-contact-info">
                                 <div class="sc-heading">
                                     <p class="first-title">GET IN TOUCH</p>
-                                    <p class="description"><a href="contact.php#google-map">329 Queensberry Street, North Melbourne
-                                        VIC 3051, Australia.</a></p>
+                                    <p class="description"><a href="">Bokale, pitakoratuwa, Heenatigala</a></p>
                                 </div>
-                                <p class="phone">Call. <a href="tel:01794340979">01794 340 979</a></p>
+                                <p class="phone">Call. <a href="tel:01794340979">01794 340 979</a></p><br>
                                 <p class="email"><a href="mailto:info@thimpress.com">info@thimpress.com</a></p>
                                 <ul class="sc-social-link style-03">
                                     <li><a target="_blank" class="face" href=""
