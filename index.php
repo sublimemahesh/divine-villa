@@ -146,40 +146,40 @@
                             </div>
                         </div>
                     </div>
-                       <div class="empty-space"></div>
-                <div class="container">
-                    <div class="sc-heading">
-                        <p class="first-title">OUR</p>
-                        <h3 class="second-title">Villa Facilities</h3>
-                    </div>
-                    <div class="sc-list-info">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <ul>
-                                    <li><img src="images/facilities/004-pool.png">Infinity Swiming Pool </li>
-                                    <li><img src="images/facilities/005-wifi.png">Wifi & SAT Tv </li>
-                                    <li><img src="images/facilities/007-cupboard.png"> Safety Locker </li>
-                                 
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul>
-                                    <li><img src="images/facilities/008-snooker.png">Snooker </li>
-                                    <li><img src="images/facilities/007-cupboard.png">Nespresso Corner </li>
-                                    <li><img src="images/facilities/006-wheelchair.png">Disable Access </li>
-                                  
-                                </ul>
-                            </div>
-                            <div class="col-sm-4">
-                                <ul>
-                                    <li><img src="images/facilities/003-ac.png">A/C</li>
-                                    <li><img src="images/facilities/002-cctv.png">CCTV, Security / Car Park </li>
-                                    <li><img src="images/facilities/001-car.png"> Car Park </li>
-                                </ul>
+                    <div class="empty-space"></div>
+                    <div class="container">
+                        <div class="sc-heading">
+                            <p class="first-title">OUR</p>
+                            <h3 class="second-title">Villa Facilities</h3>
+                        </div>
+                        <div class="sc-list-info">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities/004-pool.png">Infinity Swiming Pool </li>
+                                        <li><img src="images/facilities/005-wifi.png">Wifi & SAT Tv </li>
+                                        <li><img src="images/facilities/007-cupboard.png"> Safety Locker </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities/008-snooker.png">Snooker </li>
+                                        <li><img src="images/facilities/007-cupboard.png">Nespresso Corner </li>
+                                        <li><img src="images/facilities/006-wheelchair.png">Disable Access </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities/003-ac.png">A/C</li>
+                                        <li><img src="images/facilities/002-cctv.png">CCTV, Security / Car Park </li>
+                                        <li><img src="images/facilities/001-car.png"> Car Park </li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
                     <div class="empty-space"></div>
                     <div class="service-banner">
@@ -199,7 +199,7 @@
                                                         <a href="#"><img src="images/home/vegi.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                       
+
                                                         <h3 class="title"> <a href="">Restaurant Including Vegetarian</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -211,7 +211,7 @@
                                                         <a href="#"><img src="images/home/service-7.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                     
+
                                                         <h3 class="title"> <a href="#">Mountain Bikes</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -223,7 +223,7 @@
                                                         <a href="#"><img src="images/home/spa2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                      
+
                                                         <h3 class="title"> <a href="#">Spa Pavillon</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -235,7 +235,7 @@
                                                         <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                       
+
                                                         <h3 class="title"> <a href="#">Fitness Pavillon</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -249,7 +249,7 @@
                                                         <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                      
+
                                                         <h3 class="title"> <a href="">Meditation Area</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -261,7 +261,7 @@
                                                         <a href="#"><img src="images/home/service-6.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                        
+
                                                         <h3 class="title"> <a href="#">Sri Lankan Cocking Lessons</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -273,7 +273,7 @@
                                                         <a href="#"><img src="images/home/tea-pluckers.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
-                                                       
+
                                                         <h3 class="title"> <a href="#">Plucking Of The Leaves</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -286,7 +286,7 @@
 
                                                     </div>
                                                     <div class="content">
-                                                     
+
                                                         <h3 class="title"> <a href="#">Conciergerie Services</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
@@ -318,7 +318,7 @@
                                                     </div>
                                                     <div class="room-summary">
                                                         <h3 class="room-title">
-                                                            <a href="#">Classic Room</a>
+                                                            <a href="#">Infinity Room</a>
                                                         </h3>
                                                         <div class="room-price">From: <span class="price">$100.0</span></div>
                                                         <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
@@ -336,7 +336,7 @@
                                                     </div>
                                                     <div class="room-summary">
                                                         <h3 class="room-title">
-                                                            <a href="#">Budget Room</a>
+                                                            <a href="#">Bawa Room</a>
                                                         </h3>
                                                         <div class="room-price">From: <span class="price">$200.0</span></div>
                                                         <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
@@ -345,6 +345,7 @@
                                                         </div>
 
                                                     </div>
+
                                                 </div>
                                             </div>
                                             <div class="room col-sm-4 clearfix">
@@ -354,7 +355,7 @@
                                                     </div>
                                                     <div class="room-summary">
                                                         <h3 class="room-title">
-                                                            <a href="#">Premium Room</a>
+                                                            <a href="#">Garden Room</a>
                                                         </h3>
                                                         <div class="room-price">From: <span class="price">$300.0</span></div>
                                                         <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
@@ -373,7 +374,7 @@
                         </div>
                     </div>
 
-         <div class="h1-banner">
+                    <div class="h1-banner">
                         <div class="sc-content-overlay">
                             <div class="container rectangle-overlay2">
                                 <div class="row">

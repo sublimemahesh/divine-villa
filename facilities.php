@@ -52,51 +52,51 @@
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img1.jpg" alt="">
+                                    <img src="images/facilities/1.jpg" alt="">
                                     <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Resturant Including Vegetarian Meal</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Resturant Including Vegetarian Meal</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img2.jpg" alt="">
+                                    <img src="images/facilities/2.jpg" alt="">
                                     <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Mountain Bikes</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Mountain Bikes</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img3.jpg" alt="">
+                                    <img src="images/facilities/3.jpg" alt="">
                                     <a href="view-facilities.php" class="img-link"></a>                                <div class="content-overlay">
-                                        <h4 class="title"><a href="">Spa Pavilion</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Spa Pavilion</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img4.jpg" alt="">
-                                    <a href="" class="img-link"></a>
+                                    <img src="images/facilities/4.jpg" alt="">
+                                    <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Fitness Pavilion</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Fitness Pavilion</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img4.jpg" alt="">
-                                    <a href="" class="img-link"></a>
+                                    <img src="images/facilities/5.jpg" alt="">
+                                    <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Meditation Area</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Meditation Area</a></h4>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img4.jpg" alt="">
+                                    <img src="images/facilities/6.jpg" alt="">
                                     <a href="" class="img-link"></a>
                                     <div class="content-overlay">
                                         <h4 class="title"><a href="">Sri Lanka Cocking Lessons</a></h4>
@@ -105,19 +105,19 @@
                             </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img4.jpg" alt="">
-                                    <a href="" class="img-link"></a>
+                                    <img src="images/facilities/7.jpg" alt="">
+                                    <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Plucking of Tea Leaves</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Plucking of Tea Leaves</a></h4>
                                     </div>
                             </div>
                         </div>
                             <div class="col-sm-4">
                                 <div class="item">
-                                    <img src="images/home/h2-img4.jpg" alt="">
-                                    <a href="" class="img-link"></a>
+                                    <img src="images/facilities/8.jpg" alt="">
+                                    <a href="view-facilities.php" class="img-link"></a>
                                     <div class="content-overlay">
-                                        <h4 class="title"><a href="">Conciergerie Services</a></h4>
+                                        <h4 class="title"><a href="view-facilities.php">Conciergerie Services</a></h4>
                                     </div>
                             </div>
                         </div>
