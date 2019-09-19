@@ -60,7 +60,205 @@
                                 </div>
                                 <div class="col-lg-8 col-md-7">
                                     <div class="event-content">
-                                        <h3 class="title">Wedding John & Ina</h3>
+                                        <h3 class="title">BBQ, Wedding, Birthday Parties</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Restaurant Booking</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Restaurant Booking</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Ayurvedic And Traditional Massages</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Surfing</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Diving, Snorkeling</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Rent Bike</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Laundry</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Airport Transfer</h3>
+                                    
+                                        <div class="event-desc">
+                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                              
+                            </div>
+                            </div>
+                       <div class="event">
+                                <div class="row tm-flex">
+                                      <div class="col-lg-4 col-md-5">
+                                    <div class="thumbnail">
+                                       <img src="images/gallery/img-13.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-7">
+                                    <div class="event-content">
+                                        <h3 class="title">Excursions</h3>
                                     
                                         <div class="event-desc">
                                           <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
