@@ -36,13 +36,13 @@
         <div class="page-title">
             <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
                 <div class="content container">
-                    <h1 class="heading_primary">Facilities</h1>
+                    <h1 class="heading_primary">Conciergerie Services</h1>
                     <ul class="breadcrumbs">
                         <li class="item"><a href="./">Home</a></li>
                         <li class="item"><span class="separator"></span></li>
                         <li class="item"><a href="facilities.php">Facilities</a></li>
                         <li class="item"><span class="separator"></span></li>
-                        <li class="item active">Facilities Name</li>
+                        <li class="item active">Conciergerie Services</li>
                     </ul>
                 </div>
             </div>
@@ -73,11 +73,12 @@
                               
                             </div>
                             </div>
+               
                        <div class="event">
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-15.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -99,29 +100,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-lg-8 col-md-7">
-                                    <div class="event-content">
-                                        <h3 class="title">Restaurant Booking</h3>
-                                    
-                                        <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                              
-                            </div>
-                            </div>
-                       <div class="event">
-                                <div class="row tm-flex">
-                                      <div class="col-lg-4 col-md-5">
-                                    <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-16.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -143,7 +122,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-17.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -165,7 +144,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-18.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -187,7 +166,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-19.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -209,7 +188,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-20.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -231,7 +210,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-21.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -253,7 +232,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-13.jpg" alt="">
+                                       <img src="images/gallery/img-22.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
