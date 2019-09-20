@@ -196,11 +196,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/vegi.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/vegi.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="">Restaurant Including Vegetarian</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Restaurant Including Vegetarian</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -208,11 +208,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/service-7.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/service-7.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Mountain Bikes</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Mountain Bikes</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -220,11 +220,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/spa2.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/spa2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Spa Pavillon</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Spa Pavillon</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -232,11 +232,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/service-2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Fitness Pavillon</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Fitness Pavillon</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -246,11 +246,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/service-2.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/service-2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="">Meditation Area</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Meditation Area</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -258,11 +258,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/service-6.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/service-6.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Sri Lankan Cocking Lessons</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Sri Lankan Cocking Lessons</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -270,11 +270,11 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/tea-pluckers.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/home/tea-pluckers.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Plucking Of The Leaves</a></h3>
+                                                        <h3 class="title"> <a href="view-facility.php">Plucking Of The Leaves</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -282,12 +282,12 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="#"><img src="images/home/25-conciergeries-1030x583.jpeg" alt=""></a>
+                                                        <a href="view-conciergerie-service.php"><img src="images/home/25-conciergeries-1030x583.jpeg" alt=""></a>
 
                                                     </div>
                                                     <div class="content">
 
-                                                        <h3 class="title"> <a href="#">Conciergerie Services</a></h3>
+                                                        <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
                                                         <div class="summary">We continuously strive to enhance our living...</div>
                                                     </div>
                                                 </div>
@@ -446,78 +446,78 @@
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/15.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/img/15.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Sea Turtle Hatchery</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Sea Turtle Hatchery</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Habaraduwa and Koggala located some sea turtle hatcheries, a totally nonprofit program to conserve this endangered animal. In most of nights, </div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/home/beach.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/home/beach.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Unawatuna Beach</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Unawatuna Beach</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Golden sandy beach with a beautifully curved located near Galle city. Sun kissed beautiful </div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/6.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/img/6.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Yatagala Temple</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Yatagala Temple</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Buddhist monastery located very near to world famous Unawatuna with a history of more than 2000 years. The monastery was built by the king Dewanampiya...</div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/home/5.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/home/5.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Dalawalla Beach</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Dalawalla Beach</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">Dalawella beach is located in the Unawatuna area southwest on the island of Sri Lanka. We discovered this tranquil spot while staying in central Unawatuna...</div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/2.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/img/2.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Japanese Peace  Pagoda</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Japanese Peace  Pagoda</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A Buddhist shrine located on top of the Rumassala Mountain which represents the world peace and one of emblem for peace which has been created by Japa...</div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="#"><img src="images/img/9.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/img/9.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
-                                                    <h3 class="title"> <a href="#">Galle Fort</a></h3>
+                                                    <h3 class="title"> <a href="view-excursion.php">Galle Fort</a></h3>
                                                     <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                                     <div class="summary">A world heritage fort which created by Dutch in Colonial Era, that finds ruins in the colonial era. Galle also famous for natural harbor and this is o...</div>
-                                                    <a href="#" class="read-more more-info">More Info</a>
+                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                                 </div>
                                             </div>
                                         </div>
