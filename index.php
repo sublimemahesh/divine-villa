@@ -374,7 +374,7 @@
                         </div>
                     </div>
 
-                    <div class="h1-banner">
+                    <div class="h1-banner h1-banner2">
                         <div class="sc-content-overlay">
                             <div class="container rectangle-overlay2">
                                 <div class="row">

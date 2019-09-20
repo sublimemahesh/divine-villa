@@ -42,7 +42,7 @@
                         <li class="item"><span class="separator"></span></li>
                         <li class="item"><a href="accommodations.php">Accommodation</a></li>
                         <li class="item"><span class="separator"></span></li>
-                        <li class="item active">CLASSIC ROOM</li>
+                        <li class="item active">Room Name</li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                             </div>
                         </div>
                         <div class="title-share clearfix">
-                            <h2 class="title">Classic Room</h2>
+                            <h2 class="title">Room Name</h2>
                             <div class="social-share">
                                 <ul>
                                     <li><a class="link facebook" title="Facebook" href="#" rel="nofollow" onclick="window.open(this.href,this.title,'width=600,height=600,top=200px,left=200px');  return false;" target="_blank"><i class="ion-social-facebook"></i></a></li>
@@ -183,13 +183,13 @@
                         </form>
                     </div>
                       <div class="wd wd-categories">
-                                <h3 class="wd-title">Categories</h3>
+                                <h3 class="wd-title">Room Types</h3>
                                 <ul>
-                                    <li><a href="#">HOTEL</a></li>
-                                    <li><a href="#">ACTIVITIES</a></li>
-                                    <li><a href="#">RESTAURANT</a></li>
-                                    <li><a href="#">TIP TRAVEL</a></li>
-                                    <li><a href="#">ACTIVITIES</a></li>
+                                    <li><a href="#">Infinity Room</a></li>
+                                    <li><a href="#">Bawa Room</a></li>
+                                    <li><a href="#">Garden Room</a></li>
+                                    <li><a href="#">Lanka Room</a></li>
+                                    <li><a href="#">Cosy Room</a></li>
                                 </ul>
                             </div>
                 </aside>

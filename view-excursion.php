@@ -115,13 +115,16 @@
                         </main>
                         <aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
                             <div class="wd wd-categories">
-                                <h3 class="wd-title">Categories</h3>
+                                <h3 class="wd-title">More Excursions</h3>
                                 <ul>
-                                    <li><a href="#">HOTEL</a></li>
-                                    <li><a href="#">ACTIVITIES</a></li>
-                                    <li><a href="#">RESTAURANT</a></li>
-                                    <li><a href="#">TIP TRAVEL</a></li>
-                                    <li><a href="#">ACTIVITIES</a></li>
+                                    <li><a href="#">Galle Fort</a></li>
+                                    <li><a href="#">Sea Turtle Hatchery</a></li>
+                                    <li><a href="#">White Tea Factory</a></li>
+                                    <li><a href="#">Yatagala Temple</a></li>
+                                    <li><a href="#">Japanese Peace  Pagoda</a></li>
+                                    <li><a href="#">Black Nature Reserve</a></li>
+                                    <li><a href="#">Stilt Fishrmen </a></li>
+                                    <li><a href="#">White Tea Factory</a></li>
                                 </ul>
                             </div>
 
