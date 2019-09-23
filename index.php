@@ -166,7 +166,7 @@
                                 <div class="col-sm-4">
                                     <ul>
                                         <li><img src="images/facilities/004-billiard.png">Snooker </li>
-                                        <li><img src="images/facilities/007-cupboard.png">Nespresso Corner </li>
+                                        <li><img src="images/facilities/food.png">Nespresso Corner </li>
                                         <li><img src="images/facilities/006-wheelchair.png">Disable Access </li>
                                         <li><img src="images/facilities/003-ac.png">A/C </li>
 
