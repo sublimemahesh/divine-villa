@@ -14,11 +14,11 @@
                     <div class="toolbar-info pull-left col-sm-4"> <i class="ion-ios-telephone"></i> <span class="label">Need help? Call us now:</span> <a class="value" href="tel:+715800337"> (+94) 71 580 0337</a> </div>
                     <div class="toolbar-right pull-right col-sm-8">
                         <div class="weather"> Today: <img src="images/icons/weather.png" alt=""> <span class="temperature">28°C</span> </div>
-                        <ul class="top-menu">
+<!--                        <ul class="top-menu">
                             <li class="menu-item"><a href="#">Our Story</a></li>
                             <li class="menu-item"><a href="#">News & Awards</a></li>
-<!--                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>-->
-                        </ul>
+                            <li class="menu-item"><a href="gallery.php">Gallery</a></li>
+                        </ul>-->
                         <div class="language">
                             <div class="dropdown">
                                 <a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false"> <i class="flag-el"></i>English<span class="fa fa-caret-down"></span> </a>
