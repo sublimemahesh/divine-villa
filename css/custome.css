@@ -5,10 +5,11 @@
 }
 .title-2{
  font-size: 18px;
-color: #333;
+color: #6e2759;
 font-style: normal;
-text-transform: uppercase;
-font-weight: normal;
+text-transform: capitalize;
+font-weight: 600;
+font-family: 'Playfair Display';
 
 }
 .box-item-2{

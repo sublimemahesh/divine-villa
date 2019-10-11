@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from html.thimpress.com/hotelwp/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 22 Aug 2019 03:43:38 GMT -->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>HOTEL HTML TEMPLATE</title>
+    <title>Conatct Us - The Divine Villa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Favicons -->
@@ -54,8 +53,8 @@
                     <div class="row tm-flex">
                         <div class="col-sm-6">
                             <div class="sc-heading">
-                                <p class="first-title">SEND A</p>
-                                <h3 class="second-title">MESSAGE</h3>
+                                <p class="first-title">Send a</p>
+                                <h3 class="second-title">Message</h3>
                                 <p class="description">Do you have anything in your mind to tell us? <br>
                                     Please don't hesitate to get in touch to us via our contact form.</p>
                             </div>

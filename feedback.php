@@ -47,6 +47,14 @@
 
                 <div class="site-content container">
                     <div class="container">
+                             <div class="sc-heading">
+                                <p class="first-title">Write</p>
+                                <h3 class="second-title"> Comments</h3>
+                                <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
+                                    Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+
+                            </div>
+                                      <div style="height: 60px;"></div>
                         <div class="row">
                           
                                 <div class="col-md-4">
