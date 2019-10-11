@@ -227,7 +227,7 @@
                                 <div class="empty-space"></div>
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Villa Facilities</h3>
-                                    <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
+                                    <p class="description">We offer, an exceptional villa management and comprehensive services which are tailored specifically to the requirements of each individual guest. </p>
                                 </div>
                                 <div class="sc-posts style-01">
                                     <div class="row">
@@ -259,7 +259,7 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/spa2.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/facilities/spa.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
@@ -285,12 +285,12 @@
                                             <div class="post col-sm-6 col-md-6">
                                                 <div class="inner">
                                                     <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/service-2.jpg" alt=""></a>
+                                                        <a href="view-facility.php"><img src="images/facilities/meditation.jpg" alt=""></a>
                                                     </div>
                                                     <div class="content">
 
                                                         <h3 class="title"> <a href="view-facility.php">Meditation Area</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                        <div class="summary">Theravada Buddhism based on Sri Lanka and it ...</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -327,7 +327,7 @@
                                                     <div class="content">
 
                                                         <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                                        <div class="summary">Our staff Management  dedicated to provide a Personalized Service ...</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -426,7 +426,7 @@
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/home/beach.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/excursion/unawatuna.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="view-excursion.php">Unawatuna Beach</a></h3>
@@ -478,7 +478,7 @@
                                         <div class="post col-sm-6 col-md-4">
                                             <div class="inner">
                                                 <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/img/9.jpg" alt=""></a>
+                                                    <a href="view-excursion.php"><img src="images/excursion/galle-fort.jpg" alt=""></a>
                                                 </div>
                                                 <div class="content">
                                                     <h3 class="title"> <a href="view-excursion.php">Galle Fort</a></h3>

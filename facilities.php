@@ -49,6 +49,15 @@
                 <div class="empty-space"></div>
                 <div class="sc-categories-link style-02">
                     <div class="container">
+                         <div class="sc-heading">
+                                <p class="first-title">Villa</p>
+                                <h3 class="second-title"> Facilities</h3>
+                                
+                                <p class="description">We will take care of your stay and     <br>
+                                  make sure you will experience a unique holiday rental experience.    …..</p>
+
+                            </div>
+                        <div style="height: 60px;"></div>
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="item">

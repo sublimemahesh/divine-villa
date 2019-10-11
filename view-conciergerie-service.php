@@ -49,6 +49,14 @@
         </div>
 
         <div class="site-content container">
+             <div class="sc-heading">
+                                <p class="first-title">Write</p>
+                                <h3 class="second-title"> Comments</h3>
+                                <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
+                                    Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+
+                            </div>
+                                      <div style="height: 60px;"></div>
             <div class="events-content">
                 <div class="sc-events list-style">
                        <div class="event">
@@ -63,11 +71,9 @@
                                         <h3 class="title">BBQ, Wedding, Birthday Parties</h3>
                                     
                                         <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
+                                            <p> 
+                                                The villa staff allowing maximum flexibility for sightseeing and sampling the many restaurants of the region. Breakfast and meals will be prepared in our services,  we can also arrange specific services like " anniversary, wedding, parties ....." through a delivery service by our staff or a chef can be provided at extra cost on request.
+                                            </p>   </div>
                                     </div>
                                 </div>
                               
@@ -100,7 +106,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-16.jpg" alt="">
+                                        <img src="images/facilities/message.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -108,11 +114,7 @@
                                         <h3 class="title">Ayurvedic And Traditional Massages</h3>
                                     
                                         <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
+                                            <p> Massage treatment is another activity which very famous among worldwide travelers. Unawatuna bay home for many Ayurveda massage which will heal your m...</p>  </div>
                                     </div>
                                 </div>
                               
@@ -122,7 +124,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-17.jpg" alt="">
+                                        <img src="images/facilities/surfing.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -130,11 +132,7 @@
                                         <h3 class="title">Surfing</h3>
                                     
                                         <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
+                                            <p> Unawatuna bay is one of great surfing point. This surf point located about 5 km north to Galle it is uncrowded with high power and left reef break. Su...</p> </div>
                                     </div>
                                 </div>
                               
@@ -144,7 +142,7 @@
                                 <div class="row tm-flex">
                                       <div class="col-lg-4 col-md-5">
                                     <div class="thumbnail">
-                                       <img src="images/gallery/img-18.jpg" alt="">
+                                        <img src="images/facilities/diving.jpg" alt="">
                                     </div>
                                 </div>
                                 <div class="col-lg-8 col-md-7">
@@ -152,11 +150,7 @@
                                         <h3 class="title">Diving, Snorkeling</h3>
                                     
                                         <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
+                                            <p>Diving in Unawatuna will not be forgotten during the lifetime because there are so many amazing dive sites located upon your diving certification. ... </p> </div>
                                     </div>
                                 </div>
                               
@@ -218,11 +212,10 @@
                                         <h3 class="title">Airport Transfer</h3>
                                     
                                         <div class="event-desc">
-                                          <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.</p>
-                                        </div>
+                                            <p> We may arrange special transport upon request such as Airport transfers or excursions, 
+We work only with professional drivers licensed, we will make sure you pay a fair and competitive price and also that we have given you the best possible.
+
+ </p>  </div>
                                     </div>
                                 </div>
                               

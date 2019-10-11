@@ -46,14 +46,21 @@
 
                 <div class="site-content container">
                     <div class="container">
-
+      <div class="sc-heading">
+                                <p class="first-title">Top</p>
+                                <h3 class="second-title">Excursions</h3>
+                                <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
+                                    Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+                            </div>
+                         <div style="height: 60px;"></div>
+                        
                         <div class="sc-posts style-01 auto-height">
                             <div class="item row">
-                                
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
-                                          <img src="images/img/15.jpg" alt=""></a>
+                                            <img src="images/img/15.jpg" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <h3 class="title"> <a href="view-excursion.php">Sea Turtle Hatchery</a></h3>
@@ -66,12 +73,12 @@
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/img/4.jpg" alt=""></a>
+                                            <a href="view-excursion.php"><img src="images/excursion/unawatuna.jpg" alt=""></a>
                                         </div>
                                         <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">White Tea Factory</a></h3>
+                                            <h3 class="title"> <a href="view-excursion.php">Unawatuna Beach</a></h3>
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for</div>
+                                            <div class="summary">Golden sandy beach with a beautifully curved located near Galle city. Sun kissed beautiful </div>
                                             <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
@@ -92,12 +99,12 @@
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/img/8.jpg" alt=""></a>
+                                            <a href="view-excursion.php"><img src="images/home/5.jpg" alt=""></a>
                                         </div>
                                         <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Yala National Park</a></h3>
+                                            <h3 class="title"> <a href="view-excursion.php">Dalawalla Beach</a></h3>
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">A quite nice place to peep the nature and one of great declaration for the dry zone national park. A well-known place around the world with a high den...</div>
+                                            <div class="summary">Dalawella beach is located in the Unawatuna area southwest on the island of Sri Lanka. We discovered this tranquil spot while staying in central Unawatuna...</div>
                                             <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
@@ -118,7 +125,7 @@
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/img/9.jpg" alt=""></a>
+                                            <a href="view-excursion.php"><img src="images/excursion/galle-fort.jpg" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <h3 class="title"> <a href="view-excursion.php">Galle Fort</a></h3>
@@ -131,13 +138,42 @@
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
+                                            <a href="view-excursion.php"><img src="images/excursion/white-tea-factory.jpg" alt=""></a>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title"> <a href="view-excursion.php">White Tea Factory</a></h3>
+                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                            <div class="summary">Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for</div>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="post col-sm-6 col-md-4">
+                                    <div class="inner">
+                                        <div class="thumbnail">
+                                            <a href="view-excursion.php"><img src="images/excursion/yala.jpg" alt=""></a>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="title"> <a href="view-excursion.php">Yala National Park</a></h3>
+                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
+                                            <div class="summary">A quite nice place to peep the nature and one of great declaration for the dry zone national park. A well-known place around the world with a high den...</div>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="post col-sm-6 col-md-4">
+                                    <div class="inner">
+                                        <div class="thumbnail">
                                             <a href="view-excursion.php"><img src="images/excursion/1.jpg" alt=""></a>
                                         </div>
                                         <div class="content">
                                             <h3 class="title"> <a href="view-excursion.php">Black Nature Reserve </a></h3>
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
-                                         A hidden tremendous rainforest located two kilometers away from the Galle city. This was used to supply water to the Galle city during the British tim...</div>
+                                                A hidden tremendous rainforest located two kilometers away from the Galle city. This was used to supply water to the Galle city during the British tim...</div>
                                             <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
@@ -152,26 +188,13 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 A unique an extraordinary way of the living method of Ceylonese since centuries. This becomes generation to generation. Koggala, Weligama area are wel...</div>
-                                          <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                        
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">White Tea Factory</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for...</div>
-                                         <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                       
+
+
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -182,11 +205,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 There are very few places of Sri Lanka where snakes kept for demonstration. In near to Weligama city there is one farm called Telijjawila village. A r...</div>
-                                         <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                       
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -197,11 +220,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 Blue whales and Fin Whales are common can be seen on near Dondra Pont. The annually huge amount of visitors is engaging with this and feel the maximum...</div>
-                                         <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                       
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -212,11 +235,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 Ambalangoda is world famous for Moonstone mine where naturally made moonstone with the effect of Moon, People of the area believe this area highly ble...</div>
-                                         <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-           
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -227,11 +250,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 A great remaining of the Colonial era, still this place used for the vegetable market since started age of colonial. Dutch has been created this marke...</div>
-                                        <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                     
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -242,11 +265,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 Sri Lanka one of a great destination with many indigenous traditions. Mask is one of the unique and amazing traditions of Ceylon. Ambalangoda is famou...</div>
-                                       <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                 
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -257,11 +280,11 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 One of the most valuable treasure of Sri Lanka where hidden thousands of assets. One of highest biodiversity rain forest and it nestled to many endemi...</div>
-                                      <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                     
+
                                 <div class="post col-sm-6 col-md-4">
                                     <div class="inner">
                                         <div class="thumbnail">
@@ -272,41 +295,41 @@
                                             <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
                                             <div class="summary">
                                                 Udawalwawe is a close distance to Galle. One of a great location to watch Elephant not even that it is a combination of Dry Zone and Wet Zone National...</div>
-                                      <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
-                        
+
+                            </div>
+
                         </div>
 
                     </div>
-
                 </div>
+                <!-- Footer -->
+                <?php include './footer.php' ?>
+            </div><!-- wrapper-container -->
+
+            <div id="back-to-top">
+                <i class="ion-ios-arrow-up" aria-hidden="true"></i>
             </div>
-            <!-- Footer -->
-            <?php include './footer.php' ?>
-        </div><!-- wrapper-container -->
-
-        <div id="back-to-top">
-            <i class="ion-ios-arrow-up" aria-hidden="true"></i>
-        </div>
 
 
-        <!-- Scripts -->
-        <script src="js/libs/jquery.min.js"></script><!-- jQuery -->
-        <script src="js/libs/stellar.min.js"></script><!-- parallax -->
+            <!-- Scripts -->
+            <script src="js/libs/jquery.min.js"></script><!-- jQuery -->
+            <script src="js/libs/stellar.min.js"></script><!-- parallax -->
 
-        <script src="js/libs/jquery-ui.min.js"></script><!-- ui -->
-        <script src="js/libs/daterangepicker.min.js"></script><!-- date -->
-        <script src="js/libs/daterangepicker.min-date.min.js"></script><!-- date2 -->
-        <script src="js/libs/bootstrap.min.js"></script><!-- Bootstrap -->
-        <script src="js/libs/smoothscroll.min.js"></script><!-- smoothscroll -->
-        <script src="js/libs/owl.carousel.min.js"></script><!-- Owl Carousel -->
-        <script src="js/libs/jquery.magnific-popup.min.js"></script><!-- Magnific Popup -->
-        <script src="js/libs/theia-sticky-sidebar.min.js"></script><!-- Sticky sidebar -->
-        <script src="js/libs/counter-box.min.js"></script><!-- counter -->
-        <script src="js/libs/jquery.thim-content-slider.min.js"></script><!-- Slider -->
-        <script src="js/theme-customs.js"></script><!-- Theme Custom -->
+            <script src="js/libs/jquery-ui.min.js"></script><!-- ui -->
+            <script src="js/libs/daterangepicker.min.js"></script><!-- date -->
+            <script src="js/libs/daterangepicker.min-date.min.js"></script><!-- date2 -->
+            <script src="js/libs/bootstrap.min.js"></script><!-- Bootstrap -->
+            <script src="js/libs/smoothscroll.min.js"></script><!-- smoothscroll -->
+            <script src="js/libs/owl.carousel.min.js"></script><!-- Owl Carousel -->
+            <script src="js/libs/jquery.magnific-popup.min.js"></script><!-- Magnific Popup -->
+            <script src="js/libs/theia-sticky-sidebar.min.js"></script><!-- Sticky sidebar -->
+            <script src="js/libs/counter-box.min.js"></script><!-- counter -->
+            <script src="js/libs/jquery.thim-content-slider.min.js"></script><!-- Slider -->
+            <script src="js/theme-customs.js"></script><!-- Theme Custom -->
 
     </body>
 
