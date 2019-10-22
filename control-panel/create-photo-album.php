@@ -100,6 +100,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <script src="js/add-new-ad.js" type="text/javascript"></script>
 
         <script src="plugins/sweetalert/sweetalert.min.js"></script>
+        <script src="js/ajax/photo-album.js" type="text/javascript"></script>
         <script src="tinymce/js/tinymce/tinymce.min.js"></script>
         <script>
             tinymce.init({

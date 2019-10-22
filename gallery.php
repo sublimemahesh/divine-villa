@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+?>
 <html lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -50,50 +53,29 @@
 
                             <div class="sc-gallery">
                                 <ul class="filter-controls">
-                                    <li><a href="javascript:;" class="filter active">All</a></li>
-                                    <li><a href="javascript:;" class="filter" data-filter=".filter-room">Room</a></li>
-                                    <li><a href="javascript:;" class="filter" data-filter=".filter-restaurant">Restaurant</a></li>
-                                    <li><a href="javascript:;" class="filter" data-filter=".filter-swimming">Swimming pool</a></li>
-                                    <li><a href="javascript:;" class="filter" data-filter=".filter-spa">Spa</a></li>
-                                </ul>
-                                <div class="wrapper-gallery row" itemscope itemtype="">
-                                    <div class="col-sm-4 filter-room filter-restaurant filter-swimming">
-                                        <a href="images/gallery/img-1.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-1.jpg" alt=""></a>
-                                    </div>
+                                    <li><a href="#" class="filter active">All</a></li>
+                                    <?php
+                                    $PHOT_ALBUM = new PhotoAlbum(NULL);
+                                    foreach ($PHOT_ALBUM->all()as $key => $album) {
+                                        ?>
 
-                                    <div class="col-sm-4 filter-restaurant filter-swimming">
-                                        <a href="images/gallery/img-2.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-2.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4 filter-room filter-restaurant">
-                                        <a href="images/gallery/img-3.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-3.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4 filter-swimming filter-spa">
-                                        <a href="images/gallery/img-4.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-4.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4 filter-room filter-spa filter-restaurant">
-                                        <a href="images/gallery/img-5.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-5.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4 filter-spa filter-room">
-                                        <a href="images/gallery/img-6.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-6.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4  filter-restaurant filter-room filter-swimming">
-                                        <a href="images/gallery/img-7.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-7.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4 filter-swimming filter-restaurant">
-                                        <a href="images/gallery/img-8.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-8.jpg" alt=""></a>
-                                    </div>
-                                    <div class="col-sm-4  filter-swimming filter-room filter-swimming">
-                                        <a href="images/gallery/img-9.jpg" class="gallery-popup">
-                                            <img src="images/gallery/img-9.jpg" alt=""></a>
-                                    </div>
+                                        <li><a href="javascript:;" class="filter" data-filter=".filter-<?php echo $album['id']; ?>"> <?php echo $album['title']; ?></a></li>
+
+                                        <?php
+                                    }
+                                    ?>
+                                </ul>
+                                <div class="wrapper-gallery row" itemscope itemtype="http://schema.org/ItemList">
+                                    <?php
+                                    $ALBUM_PHOTO = new AlbumPhoto(NULL);
+                                    foreach ($ALBUM_PHOTO->all() as $album_photo) {
+                                        ?>
+                                        <div class="col-sm-3 filter-<?php echo $album_photo['album']; ?>">
+                                            <a href="upload/photo-album/gallery/<?php echo $album_photo['image_name'] ?>" class="gallery-popup">
+                                                <img src="upload/photo-album/gallery/thumb/<?php echo $album_photo['image_name'] ?>" alt=""></a>
+                                        </div>
+                                    <?php } ?>
+
                                 </div>
                             </div>
                         </div>

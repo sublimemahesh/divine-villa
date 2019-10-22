@@ -1,9 +1,14 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+$id = $_GET['id'];
+$ATTRACTION = new Attraction($id);
+?>
 <html lang="en">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Excursion - The Divine Villa</title>
+        <title><?php echo $ATTRACTION->title ?> - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
@@ -36,13 +41,13 @@
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
                         <div class="content container">
-                            <h1 class="heading_primary">Excursion Name</h1>
+                            <h1 class="heading_primary"><?php echo $ATTRACTION->title ?></h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>
                                 <li class="item"><a href="excursions.php">Excursion</a></li>
                                 <li class="item"><span class="separator"></span></li>
-                                <li class="item active">Excursion Name</li>
+                                <li class="item active"><?php echo $ATTRACTION->title ?></li>
                             </ul>
                         </div>
                     </div>
@@ -57,18 +62,14 @@
 
 
                                         <div class="post-summary">
-                                             <div class="sc-heading">
-                                <p class="first-title">Top </p>
-                                <h3 class="second-title">Excursion Name</h3>
-                             
-                            </div>
-                                            <div class="post-description">
-                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit...</p>
+                                            <div class="sc-heading">
+                                                <p class="first-title">Top </p>
+                                                <h3 class="second-title"><?php echo $ATTRACTION->title ?></h3>
 
-                                                <p>Zril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur.</p>
                                             </div>
-
-
+                                            <div class="post-description text-justify">
+                                                <?php echo $ATTRACTION->description ?> 
+                                            </div>
                                         </div>
 
                                     </div>
@@ -77,33 +78,41 @@
 
                             <div class="sc-gallery no-gutter no-filter">
                                 <div class="wrapper-gallery row" itemscope itemtype="">
+                                    <?php
+                                    $ATTRACTION_PHOTO = new AttractionPhoto(NULL);
+                                    foreach ($ATTRACTION_PHOTO->getAttractionPhotosById($id) as $key => $attraction_photo) {
+                                        $key++;
 
+                                        if ($key == 1) {
+                                            ?>
+                                            <div class="col-md-6">
+                                                <div class="row"> 
+                                                    <div class="col-sm-12">
+                                                        <a href="upload/attraction/gallery/<?php echo $attraction_photo['image_name'] ?>" class="gallery-popup ">
+                                                            <img src="upload/attraction/gallery/thumb/<?php echo $attraction_photo['image_name'] ?>" alt=""></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <?php
+                                        }
+                                    }
+                                    ?>
                                     <div class="col-md-6">
                                         <div class="row"> 
-                                            <div class="col-sm-12">
-                                                <a href="images/gallery/img-1.jpg" class="gallery-popup ">
-                                                    <img src="images/gallery/img-1.jpg" alt=""></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row"> 
-                                            <div class="col-sm-6">
-                                                <a href="images/gallery/img-2.jpg" class="gallery-popup gallery-mg">
-                                                    <img src="images/gallery/img-2.jpg" alt=""></a>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <a href="images/gallery/img-3.jpg" class="gallery-popup gallery-mg">
-                                                    <img src="images/gallery/img-3.jpg" alt=""></a>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <a href="images/gallery/img-4.jpg" class="gallery-popup gallery-mg">
-                                                    <img src="images/gallery/img-4.jpg" alt=""></a>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <a href="images/gallery/img-5.jpg" class="gallery-popup gallery-mg">
-                                                    <img src="images/gallery/img-5.jpg" alt=""></a>
-                                            </div>
+                                            <?php
+                                            $ATTRACTION_PHOTOS = new AttractionPhoto(NULL);
+                                            foreach ($ATTRACTION_PHOTOS->getAttractionPhotosById($id) as $key => $attraction_photo) {
+                                                $key++;
+                                                if ($key > 1 && $key < 6) {
+                                                    ?>
+                                                    <div class="col-sm-6">
+                                                        <a href="upload/attraction/gallery/<?php echo $attraction_photo['image_name'] ?>" class="gallery-popup gallery-mg">
+                                                            <img src="upload/attraction/gallery/thumb/<?php echo $attraction_photo['image_name'] ?>" alt=""></a>
+                                                    </div>
+                                                    <?php
+                                                }
+                                            }
+                                            ?> 
 
                                         </div>
                                     </div>
@@ -117,14 +126,12 @@
                             <div class="wd wd-categories">
                                 <h3 class="wd-title">More Excursions</h3>
                                 <ul>
-                                    <li><a href="#">Galle Fort</a></li>
-                                    <li><a href="#">Sea Turtle Hatchery</a></li>
-                                    <li><a href="#">White Tea Factory</a></li>
-                                    <li><a href="#">Yatagala Temple</a></li>
-                                    <li><a href="#">Japanese Peace  Pagoda</a></li>
-                                    <li><a href="#">Black Nature Reserve</a></li>
-                                    <li><a href="#">Stilt Fishrmen </a></li>
-                                    <li><a href="#">White Tea Factory</a></li>
+                                    <?php
+                                    $ATTRACTION = new Attraction(NULL);
+                                    foreach ($ATTRACTION->all() as $attraction) {
+                                        ?>
+                                        <li><a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></li>
+                                    <?php } ?>
                                 </ul>
                             </div>
 
