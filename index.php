@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+$PAGES = new Page(1);
+?>
 <html lang="en">
 
     <head>
@@ -113,18 +117,10 @@
 
                                 <div class="col-sm-6">
                                     <div class="sc-heading style-02">
-                                        <h3 class="title" style="color: #6e2759;">Welcome</h3>
+                                        <h3 class="title" style="color: #6e2759;">Welcome.</h3>
 <!--                                        <span class="dark-title">WELCOME TO</span>-->
                                         <div class="description">
-
-
-
-                                            <p>The pearl of Indian Ocean in a place to be, will invite you for a paradise experience in
-                                                the Southern West Province close to Unawatuna and Galle.</p>
-                                            <p>We will welcome you in a luxury boutique villa with an outstanding architectural
-                                                designs combining wild life, beautiful Ocean scenic view and paddy fields.</p>
-                                            <p>The Divine Luxury Boutique Villa will provide you the best in class services
-                                                combined with and unbelievable panoramic view from a top hill location.</p>
+                                            <?php echo $PAGES->description ?>
                                         </div>
                                         <div class="head-button">
                                             <a href="#" class="more-info">More Info</a>
