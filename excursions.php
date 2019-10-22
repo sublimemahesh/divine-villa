@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+?>
 <html lang="en">
 
     <head>
@@ -46,260 +49,34 @@
 
                 <div class="site-content container">
                     <div class="container">
-      <div class="sc-heading">
-                                <p class="first-title">Top</p>
-                                <h3 class="second-title">Excursions</h3>
-                                <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
-                                    Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
-                            </div>
-                         <div style="height: 60px;"></div>
-                        
+                        <div class="sc-heading">
+                            <p class="first-title">Top</p>
+                            <h3 class="second-title">Excursions</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
+                                Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+                        </div>
+                        <div style="height: 60px;"></div>
+
                         <div class="sc-posts style-01 auto-height">
                             <div class="item row">
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <img src="images/img/15.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Sea Turtle Hatchery</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Habaraduwa and Koggala located some sea turtle hatcheries, a totally nonprofit program to conserve this endangered animal. In most of nights, </div>
-                                            <a href="view-excursion.php" class="read-more more-info" >More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/unawatuna.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Unawatuna Beach</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Golden sandy beach with a beautifully curved located near Galle city. Sun kissed beautiful </div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
+                                <?php
+                                $ATTRACTION = new Attraction(NULL);
+                                foreach ($ATTRACTION->all() as $key => $attraction) {
+                                    ?> 
+                                    <div class="post col-sm-6 col-md-4">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><img src="upload/attraction/<?php echo $attraction['image_name'] ?>" alt=""></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title"> <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></h3>
+                                                <div class="summary text-justify">
+                                                    <?php echo  $attraction['short_description']  ?>... </div>
+                                                <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>" class="read-more more-info">More Info</a>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/img/6.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Yatagala Temple</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Buddhist monastery located very near to world famous Unawatuna with a history of more than 2000 years. The monastery was built by the king Dewanampiya...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/home/5.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Dalawalla Beach</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Dalawella beach is located in the Unawatuna area southwest on the island of Sri Lanka. We discovered this tranquil spot while staying in central Unawatuna...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/img/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Japanese Peace  Pagoda</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">A Buddhist shrine located on top of the Rumassala Mountain which represents the world peace and one of emblem for peace which has been created by Japa...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/galle-fort.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Galle Fort</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">A world heritage fort which created by Dutch in Colonial Era, that finds ruins in the colonial era. Galle also famous for natural harbor and this is o...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/white-tea-factory.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">White Tea Factory</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">Virgen white tea factory one of finest tourist attraction in down south of Sri Lanka. Handungoda tea factory in Tittagalla demonstrate its process for</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/yala.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Yala National Park</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">A quite nice place to peep the nature and one of great declaration for the dry zone national park. A well-known place around the world with a high den...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Black Nature Reserve </a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                A hidden tremendous rainforest located two kilometers away from the Galle city. This was used to supply water to the Galle city during the British tim...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/2.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Stilt Fishrmen </a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                A unique an extraordinary way of the living method of Ceylonese since centuries. This becomes generation to generation. Koggala, Weligama area are wel...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/4.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Snake Farm</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                There are very few places of Sri Lanka where snakes kept for demonstration. In near to Weligama city there is one farm called Telijjawila village. A r...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/6.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Whale Watching</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                Blue whales and Fin Whales are common can be seen on near Dondra Pont. The annually huge amount of visitors is engaging with this and feel the maximum...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/7.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Moonstone Mine</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                Ambalangoda is world famous for Moonstone mine where naturally made moonstone with the effect of Moon, People of the area believe this area highly ble...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/8.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Galle Green Market</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                A great remaining of the Colonial era, still this place used for the vegetable market since started age of colonial. Dutch has been created this marke...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/9.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Mask Making</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                Sri Lanka one of a great destination with many indigenous traditions. Mask is one of the unique and amazing traditions of Ceylon. Ambalangoda is famou...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/10.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Sinharaya Rainforest</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                One of the most valuable treasure of Sri Lanka where hidden thousands of assets. One of highest biodiversity rain forest and it nestled to many endemi...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="post col-sm-6 col-md-4">
-                                    <div class="inner">
-                                        <div class="thumbnail">
-                                            <a href="view-excursion.php"><img src="images/excursion/13.jpg" alt=""></a>
-                                        </div>
-                                        <div class="content">
-                                            <h3 class="title"> <a href="view-excursion.php">Udawalawa National Park</a></h3>
-                                            <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                            <div class="summary">
-                                                Udawalwawe is a close distance to Galle. One of a great location to watch Elephant not even that it is a combination of Dry Zone and Wet Zone National...</div>
-                                            <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                <?php } ?>
                             </div>
 
                         </div>

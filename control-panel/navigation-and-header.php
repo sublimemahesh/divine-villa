@@ -292,6 +292,27 @@
                 <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
+                        <span>Pages</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="create-pages.php">
+                                <i class="material-icons">add</i>
+                                <span>Add new</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="manage-pages.php">
+                                <i class="material-icons">list</i>
+                                <span>Manage</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="qqq">
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
                         <span>Attraction</span>
                     </a>
                     <ul class="ml-menu">
@@ -315,33 +336,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="qqq">
-                    <a href="javascript:void(0);" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>Comment</span>
-                    </a>
-                    <ul class="ml-menu">
-                        <li>
-                            <a href="create-comment.php">
-                                <i class="material-icons">add</i>
-                                <span>Add New</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="manage-comments.php">
-                                <i class="material-icons">list</i>
-                                <span>Manage</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="arrange-comments.php">
-                               <i class="material-icons">compare_arrows</i>
-                                <span>Arrange</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="qqq">
+             
+                <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Package</span>
@@ -361,13 +357,13 @@
                         </li>
                         <li>
                             <a href="arrange-tour-package.php">
-                               <i class="material-icons">compare_arrows</i>
+                                <i class="material-icons">compare_arrows</i>
                                 <span>Arrange</span>
                             </a>
                         </li>
                     </ul>
                 </li>
-                <li class="qqq">
+                <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Activity</span>
@@ -393,28 +389,8 @@
                         </li>
                     </ul>
                 </li>
-                <li class="qqq">
-                    <a href="javascript:void(0);" class="menu-toggle">
-                        <i class="material-icons">chevron_right</i>
-                        <span>Pages</span>
-                    </a>
-                    <ul class="ml-menu">
-                        <li>
-                            <a href="create-pages.php">
-                                <i class="material-icons">add</i>
-                                <span>Add new</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="manage-pages.php">
-                                <i class="material-icons">list</i>
-                                <span>Manage</span>
-                            </a>
-                        </li>
 
-                    </ul>
-                </li>
-                <li>
+                <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Type</span>
@@ -465,7 +441,7 @@
                 </li> 
 
 
-                <li>
+                <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Tour Package-Normal</span>
@@ -491,7 +467,7 @@
                         </li>
                     </ul>
                 </li> 
-                <li>
+                <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Service</span>
@@ -543,14 +519,15 @@
                         </li>
                     </ul>
                 </li> 
-                <li>
+                <li class="hidden">
                     <a href="view-album-photos.php?id=1" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Gallery</span>
                     </a>
 
                 </li> 
-                <li>
+
+                <li >
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Photo Album</span>
@@ -576,7 +553,7 @@
                         </li>
                     </ul>
                 </li> 
-                <li>
+                <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Offer</span>
@@ -602,8 +579,33 @@
                         </li>
                     </ul>
                 </li> 
-
-                <li class="qqq">
+   <li class="qqq">
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
+                        <span>Comment</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="create-comment.php">
+                                <i class="material-icons">add</i>
+                                <span>Add New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="manage-comments.php">
+                                <i class="material-icons">list</i>
+                                <span>Manage</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="arrange-comments.php">
+                                <i class="material-icons">compare_arrows</i>
+                                <span>Arrange</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Product Type</span>
@@ -629,7 +631,7 @@
                         </li>
                     </ul>
                 </li>  
-              
+
             </ul>
         </div>
         <!-- #Menu -->

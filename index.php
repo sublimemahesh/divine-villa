@@ -118,12 +118,11 @@ $PAGES = new Page(1);
                                 <div class="col-sm-6">
                                     <div class="sc-heading style-02">
                                         <h3 class="title" style="color: #6e2759;">Welcome.</h3>
-<!--                                        <span class="dark-title">WELCOME TO</span>-->
                                         <div class="description">
                                             <?php echo $PAGES->description ?>
                                         </div>
                                         <div class="head-button">
-                                            <a href="#" class="more-info">More Info</a>
+                                            <a href="about.php" class="more-info">More Info</a>
                                         </div>
                                     </div>
                                 </div>
@@ -153,61 +152,35 @@ $PAGES = new Page(1);
                                 </div>
                                 <div class="sc-rooms style-01">
                                     <div class="rooms-content layout-grid style-01">
-                                        <div class="row">
-                                            <div class="room col-sm-4 clearfix">
-                                                <div class="room-item">
-                                                    <div class="room-media">
-                                                        <a href="#"><img src="images/gallery/1.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="room-summary">
-                                                        <h3 class="room-title">
-                                                            <a href="#">Infinity Room</a>
-                                                        </h3>
-                                                        <div class="room-price">From: <span class="price">$100.0</span></div>
-                                                        <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
-                                                        <div class="room-meta clearfix">
-                                                            <a href="#" class="btn-icon">Read more</a>
+                                        <div class="sc-room style-01">
+                                            <div class="row  room-slider owl-carousel owl-theme">
+                                                <?php
+                                                $ROOM = new Room(NULL);
+                                                foreach ($ROOM->all() as $room) {
+                                                    ?>
+
+                                                    <div class="item">
+                                                        <div class="room   clearfix">
+                                                            <div class="room-item">
+                                                                <div class="room-media">
+                                                                    <a href="view-accommodation.php?id=<?php echo $room['id'] ?>"><img src="upload/room/<?php echo $room['image_name'] ?>" alt=""></a>
+                                                                </div>
+                                                                <div class="room-summary">
+                                                                    <h3 class="room-title">
+                                                                        <a href="view-accommodation.php?id=<?php echo $room['id'] ?>"><?php echo $room['title'] ?></a>
+                                                                    </h3>
+                                                                    <div class="room-price">From: <span class="price">$ <?php echo number_format($room['price'], 2) ?></span></div>
+                                                                    <p class="room-description text-justify">
+                                                                        <?php echo substr($room['short_description'], 0, 120) ?>...
+                                                                    </p>
+                                                                    <div class="room-meta clearfix">
+                                                                        <a href="view-accommodation.php?id=<?php echo $room['id'] ?>" class="btn-icon">Read more</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
-
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="room col-sm-4 clearfix">
-                                                <div class="room-item">
-                                                    <div class="room-media">
-                                                        <a href="#"><img src="images/gallery/3.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="room-summary">
-                                                        <h3 class="room-title">
-                                                            <a href="#">Bawa Room</a>
-                                                        </h3>
-                                                        <div class="room-price">From: <span class="price">$200.0</span></div>
-                                                        <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
-                                                        <div class="room-meta clearfix">
-                                                            <a href="#" class="btn-icon">Read more</a>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                            <div class="room col-sm-4 clearfix">
-                                                <div class="room-item">
-                                                    <div class="room-media">
-                                                        <a href="#"><img src="images/gallery/2.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="room-summary">
-                                                        <h3 class="room-title">
-                                                            <a href="#">Garden Room</a>
-                                                        </h3>
-                                                        <div class="room-price">From: <span class="price">$300.0</span></div>
-                                                        <p class="room-description">Lorem ipsum dolor sit amet, consecte adipiscing elit, sed diam nonummy wisi enim ad minim vel eum iriure</p>
-                                                        <div class="room-meta clearfix">
-                                                            <a href="#" class="btn-icon">Read more</a>
-                                                        </div>
-
-                                                    </div>
-                                                </div>
+                                                <?php } ?>
                                             </div>
                                         </div>
                                     </div>
@@ -401,89 +374,33 @@ $PAGES = new Page(1);
                             <div class="container">
                                 <div class="empty-space"></div>
                                 <div class="sc-heading style-01 text-center">
-                                    <h3 class="title">Top Destinations</h3>
+                                    <h3 class="title">Top Excursion</h3>
                                     <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
                                 </div>
                                 <div class="sc-posts style-01 auto-height">
                                     <div class="item row">
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/img/15.jpg" alt=""></a>
+                                        <?php
+                                        $ATTRACTION = new Attraction(NULL);
+                                        foreach ($ATTRACTION->all() as $key => $attraction) {
+                                            if ($key < 6) {
+                                                ?>
+                                                <div class="post col-sm-6 col-md-4">
+                                                    <div class="inner">
+                                                        <div class="thumbnail">
+                                                            <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><img src="upload/attraction/<?php echo $attraction['image_name'] ?>" alt=""></a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title"> <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></h3>
+                                                            <div class="summary text-justify">
+                                                                <?php echo  $attraction['short_description']  ?>... </div>
+                                                            <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>" class="read-more more-info">More Info</a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Sea Turtle Hatchery</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">Habaraduwa and Koggala located some sea turtle hatcheries, a totally nonprofit program to conserve this endangered animal. In most of nights, </div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/excursion/unawatuna.jpg" alt=""></a>
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Unawatuna Beach</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">Golden sandy beach with a beautifully curved located near Galle city. Sun kissed beautiful </div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/img/6.jpg" alt=""></a>
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Yatagala Temple</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">Buddhist monastery located very near to world famous Unawatuna with a history of more than 2000 years. The monastery was built by the king Dewanampiya...</div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/home/5.jpg" alt=""></a>
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Dalawalla Beach</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">Dalawella beach is located in the Unawatuna area southwest on the island of Sri Lanka. We discovered this tranquil spot while staying in central Unawatuna...</div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/img/2.jpg" alt=""></a>
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Japanese Peace  Pagoda</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">A Buddhist shrine located on top of the Rumassala Mountain which represents the world peace and one of emblem for peace which has been created by Japa...</div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="post col-sm-6 col-md-4">
-                                            <div class="inner">
-                                                <div class="thumbnail">
-                                                    <a href="view-excursion.php"><img src="images/excursion/galle-fort.jpg" alt=""></a>
-                                                </div>
-                                                <div class="content">
-                                                    <h3 class="title"> <a href="view-excursion.php">Galle Fort</a></h3>
-                                                    <!--                                                    <div class="short-text"> 2 Day 3 night, Start from $500</div>-->
-                                                    <div class="summary">A world heritage fort which created by Dutch in Colonial Era, that finds ruins in the colonial era. Galle also famous for natural harbor and this is o...</div>
-                                                    <a href="view-excursion.php" class="read-more more-info">More Info</a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                                <?php
+                                            }
+                                        }
+                                        ?>
                                     </div>
                                 </div>
 
@@ -534,53 +451,27 @@ $PAGES = new Page(1);
                                 <div class="sc-testimonials style-01">
                                     <h3 class="heading">Comments from Guests</h3>
                                     <div class="testimonial-slider" data-itemsvisible="3" data-nav="false">
-                                        <div class="item">
-                                            <div class="content">
-                                                <div class="image">
-                                                    <img src="images/blog/sidebar.jpg" alt="">
-                                                </div>
-                                                <div class="rating-star"></div>
-                                                <div class="description">
-                                                    " Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in today’s world. "
-                                                </div>
-                                                <div class="user-info">
-                                                    <h4 class="name">Bobby Tom</h4>
-                                                    <div class="regency">Manager</div>
-                                                </div>
+                                        <?php
+                                        $COMMENT = new Comments(NULL);
+                                        foreach ($COMMENT->activeComments() as $comment) {
+                                            ?>
+                                            <div class="item">
+                                                <div class="content">
+                                                    <div class="image">
+                                                        <img src="upload/comments/<?php echo $comment['image_name'] ?>" alt="">
+                                                    </div>
+                                                    <div class="rating-star"></div>
+                                                    <div class="description">
+                                                        <?php echo $comment['comment'] ?>
+                                                    </div>
+                                                    <div class="user-info">
+                                                        <h4 class="name"><?php echo $comment['name'] ?></h4>
+                                                        <div class="regency"><?php echo $comment['country'] ?></div>
+                                                    </div>
 
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="content">
-                                                <div class="image">
-                                                    <img src="images/blog/author1.jpg" alt="">
                                                 </div>
-                                                <div class="rating-star"></div>
-                                                <div class="description">
-                                                    " Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in today’s world. "
-                                                </div>
-                                                <div class="user-info">
-                                                    <h4 class="name">Kenny White</h4>
-                                                    <div class="regency">Designer</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="content">
-                                                <div class="image">
-                                                    <img src="images/blog/author2.jpg" alt="">
-                                                </div>
-                                                <div class="rating-star"></div>
-                                                <div class="description">
-                                                    " Conversations can be a tricky business. Sometimes, decoding what is said with what is meant is difficult at best. However, communication is a necessary tool in today’s world. "
-                                                </div>
-                                                <div class="user-info">
-                                                    <h4 class="name">Neymar</h4>
-                                                    <div class="regency">Foreman</div>
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                            </div> 
+                                        <?php } ?>
                                     </div>
                                 </div>
                             </div>
@@ -598,100 +489,22 @@ $PAGES = new Page(1);
 
                                 <div class="sc-gallery style-01">
                                     <div class="gallery-slider owl-carousel owl-theme">
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-1" class="btn-gallery"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-1" class="hidden">
-                                                                                                    <a  href="images/gallery/img-10.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-6.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-11.jpg"><img src="images/home/gallery/1.jpg" alt=""></a>
-                                                                                                </div>-->
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Sigiriya</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
+                                        <?php
+                                        $PHOTO_ALBUM = new AlbumPhoto(NULL);
+                                        foreach ($PHOTO_ALBUM->all() as $photo_album) {
+                                            ?>
+                                            <div class="item">
                                                 <div class="gallery">
-                                                    <a href="#gallery-2" class="btn-gallery"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                    <!--                                                    <div id="gallery-2" class="hidden">
-                                                                                                            <a  href="images/gallery/img-2.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                                                                            <a  href="images/gallery/img-7.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                                                                            <a  href="images/gallery/img-8.jpg"><img src="images/home/gallery/2.jpg" alt=""></a>
-                                                                                                        </div>-->
+                                                    <a href="#gallery-1" class="btn-gallery"><img src="upload/photo-album/gallery/thumb/<?php echo $photo_album['image_name'] ?>" alt=""></a>
+                                                    <div id="gallery-1" class="hidden">
+                                                        <a  href="upload/photo-album/gallery/<?php echo $photo_album['image_name'] ?>"> </a>
+                                                    </div> 
                                                 </div>
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Nine Arches Bridge</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-3" class="btn-gallery"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-3" class="hidden">
-                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-1.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-9.jpg"><img src="images/home/gallery/3.jpg" alt=""></a>
+                                                <!--                                                <div class="content">
+                                                                                                    <h4 class="title"><a href="#">Sigiriya</a></h4>
                                                                                                 </div>-->
                                             </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Haputhale</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-4" class="btn-gallery"><img src="images/home/gallery/4.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-4" class="hidden">
-                                                                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
-                                                                                                </div>-->
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Dalawella Beach</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-5" class="btn-gallery"><img src="images/home/gallery/5.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-5" class="hidden">
-                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-1.jpg"><img src="images/gallery/img-1.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-9.jpg"><img src="images/gallery/img-9.jpg" alt=""></a>
-                                                                                                </div>-->
-                                            </div>
-
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Beach</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-7" class="btn-gallery"><img src="images/home/gallery/6.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-6" class="hidden">
-                                                                                                    <a  href="images/gallery/img-4.jpg"><img src="images/gallery/img-4.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-7.jpg"><img src="images/gallery/img-7.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-3.jpg"><img src="images/gallery/img-3.jpg" alt=""></a>
-                                                                                                </div>-->
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Fishing</a></h4>
-                                            </div>
-                                        </div>
-                                        <div class="item">
-                                            <div class="gallery">
-                                                <a href="#gallery-7" class="btn-gallery"><img src="images/home/gallery/7.jpg" alt=""></a>
-                                                <!--                                                <div id="gallery-7" class="hidden">
-                                                                                                    <a  href="images/gallery/img-13.jpg"><img src="images/gallery/img-13.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-14.jpg"><img src="images/gallery/img-14.jpg" alt=""></a>
-                                                                                                    <a  href="images/gallery/img-12.jpg"><img src="images/gallery/img-12.jpg" alt=""></a>
-                                                                                                </div>-->
-                                            </div>
-                                            <div class="content">
-                                                <h4 class="title"><a href="#">Mirissa</a></h4>
-                                            </div>
-                                        </div>
+                                        <?php } ?>
                                     </div>
                                 </div>
                                 <div class="empty-space"></div>

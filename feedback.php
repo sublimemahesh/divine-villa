@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+?>
 <html lang="en">
 
     <head>
@@ -11,7 +14,7 @@
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
-       
+
 
     </head>
     <body class="room archive">
@@ -47,101 +50,35 @@
 
                 <div class="site-content container">
                     <div class="container">
-                             <div class="sc-heading">
-                                <p class="first-title">Write</p>
-                                <h3 class="second-title"> Comments</h3>
-                                <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
-                                    Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+                        <div class="sc-heading">
+                            <p class="first-title">Write</p>
+                            <h3 class="second-title"> Comments</h3>
+                            <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
+                                Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
 
-                            </div>
-                                      <div style="height: 60px;"></div>
+                        </div>
+                        <div style="height: 60px;"></div>
                         <div class="row">
-                          
+                            <?php
+                            $COMMENT = new Comments(NULL);
+                            foreach ($COMMENT->activeComments() as $comment) {
+                                ?>
                                 <div class="col-md-4">
                                     <div class="testimonial-item">
                                         <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
+                                            <img src="upload/comments/<?php echo $comment['image_name'] ?>">
                                         </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
+                                        <div class="item-body text-justify">
+                                            <?php echo $comment['comment'] ?>
                                         </div>  
                                         <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
+                                            <h4><?php echo $comment['name'] ?></h4>
+                                            <span><?php echo $comment['country'] ?></span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="testimonial-item">
-                                        <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
-                                        </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
-                                        </div>  
-                                        <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="testimonial-item">
-                                        <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
-                                        </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
-                                        </div>  
-                                        <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="testimonial-item">
-                                        <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
-                                        </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
-                                        </div>  
-                                        <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="testimonial-item">
-                                        <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
-                                        </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
-                                        </div>  
-                                        <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="testimonial-item">
-                                        <div class="img-thumb">
-                                            <img src="images/blog/author1.jpg">
-                                        </div>
-                                        <div class="item-body">
-                                            <p>Praesent volutpat diam iaculis, fringilla orci vitae, hendrerit odio. Aenean venenatis, mauris et suscipit venenatis, augue lectus gravida dui, eget commodo mauris ex non risus. Vestibulum ultricies congue leo, quis pulvinar mi porttitor et. </p>
-                                        </div>  
-                                        <div class="item-title text-center">
-                                            <h4>Jone Smith</h4>
-                                            <span>Sri Lanka</span>
-                                        </div>
-                                    </div>
-                                </div>
-                           
+                            <?php } ?>
+
                         </div>
                     </div>
 
