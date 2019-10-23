@@ -200,106 +200,27 @@ $PAGES = new Page(1);
                                 </div>
                                 <div class="sc-posts style-01">
                                     <div class="row">
-                                        <div class="item col-sm-12 col-md-6">
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/vegi.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Restaurant Including Vegetarian</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/service-7.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Mountain Bikes</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
+                                        <div class="item  ">
+                                            <?php
+                                            $FACILITY = new Facility(NULL);
+                                            foreach ($FACILITY->all() as $facility) {
+                                                ?>
+                                                <div class="post col-sm-6 col-md-3">
+                                                    <div class="inner">
+                                                        <div class="thumbnail">
+                                                            <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><img src="upload/facility/<?php echo $facility['image_name'] ?>" alt=""></a>
+                                                        </div>
+                                                        <div class="content">
+                                                            <h3 class="title"> <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h3>
+                                                            <div class="summary"><?php echo $facility['short_description'] ?>
+                                                                <a href="view-facility.php?id=<?php echo $facility['id'] ?>" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/facilities/spa.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Spa Pavillon</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/service-2.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Fitness Pavillon</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="item col-sm-12 col-md-6">
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/facilities/meditation.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Meditation Area</a></h3>
-                                                        <div class="summary">Theravada Buddhism based on Sri Lanka and it ...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/service-6.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Sri Lankan Cocking Lessons</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php"><img src="images/home/tea-pluckers.jpg" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-facility.php">Plucking Of The Leaves</a></h3>
-                                                        <div class="summary">We continuously strive to enhance our living...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="post col-sm-6 col-md-6">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-conciergerie-service.php"><img src="images/home/25-conciergeries-1030x583.jpeg" alt=""></a>
-
-                                                    </div>
-                                                    <div class="content">
-
-                                                        <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
-                                                        <div class="summary">Our staff Management  dedicated to provide a Personalized Service ...</div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                                <?php
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                 </div>
@@ -392,7 +313,7 @@ $PAGES = new Page(1);
                                                         <div class="content">
                                                             <h3 class="title"> <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></h3>
                                                             <div class="summary text-justify">
-                                                                <?php echo  $attraction['short_description']  ?>... </div>
+                                                                <?php echo $attraction['short_description'] ?>... </div>
                                                             <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>" class="read-more more-info">More Info</a>
                                                         </div>
                                                     </div>

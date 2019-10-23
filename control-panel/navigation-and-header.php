@@ -363,7 +363,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="qqq  ">
+                <li class="qqq  hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Activity</span>
@@ -377,6 +377,32 @@
                         </li>
                         <li>
                             <a href="manage-activity.php">
+                                <i class="material-icons">list</i>
+                                <span>Manage</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="arrange-activity.php">
+                                <i class="material-icons">compare_arrows</i>
+                                <span>Arrange</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="qqq  ">
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">chevron_right</i>
+                        <span>Facility</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a href="create-facility.php">
+                                <i class="material-icons">add</i>
+                                <span>Add New</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="manage-facility.php">
                                 <i class="material-icons">list</i>
                                 <span>Manage</span>
                             </a>
