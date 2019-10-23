@@ -363,7 +363,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class="qqq hidden">
+                <li class="qqq  ">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Activity</span>
@@ -467,7 +467,7 @@
                         </li>
                     </ul>
                 </li> 
-                <li class="hidden">
+                <li >
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Service</span>
