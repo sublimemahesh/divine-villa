@@ -475,6 +475,28 @@ $PAGES = new Page(1);
         <script src="js/libs/revolution/extensions/revolution.extension.parallax.min.js"></script>
         <script src="js/libs/revolution/extensions/revolution.extension.slideanims.min.js"></script>
         <script src="js/libs/revolution/extensions/revolution.extension.video.min.js"></script>
+
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" type="text/javascript"></script>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+            }
+
+            $('.translation-links a').click(function () {
+
+                var lang = $(this).data('lang');
+                var $frame = $('.goog-te-menu-frame:first');
+                if (!$frame.size()) {
+                    alert("Error: Could not find Google translate frame.");
+                    return false;
+                }
+                $frame.contents().find('.goog-te-menu2-item span.text:contains(' + lang + ')').get(0).click();
+                return false;
+            });
+        </script> 
+
+
+
         <script>function setREVStartSize(e) {
                 try {
                     e.c = jQuery(e.c);

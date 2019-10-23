@@ -20,10 +20,11 @@
                             <li class="menu-item"><a href="gallery.php">Gallery</a></li>
                         </ul>-->
                         <div class="language">
-                            <div class="dropdown">
-                                <a href="#" class="dropdown-toggle select" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false"> <i class="flag-el"></i>English<span class="fa fa-caret-down"></span> </a>
+                            <div class="dropdown  translation-links">
+                                
+                                <a href="#" class="dropdown-toggle select united kingdom" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false"   data-lang="English"> <i class="flag-el"></i>English<span class="fa fa-caret-down"></span> </a>
                                 <ul class="dropdown-language">
-                                    <li><a href="#"><i class="flag-it"></i>Italiano</a></li>
+                                    <li><a href="#" class="chinese" data-lang="Chinese"><i class="flag-cn"></i>Chaina</a></li>
                                     <li><a href="#"><i class="flag-de"></i>Deutsch</a></li>
                                     <li><a href="#"><i class="flag-fr"></i>Français</a></li>
                                     <li><a href="#"><i class="flag-es"></i>Español</a></li>
