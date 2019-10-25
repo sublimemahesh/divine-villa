@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 include './class/include.php';
+$BANNER = new Banner(6);
 ?>
 <html lang="en">
 
@@ -36,7 +37,7 @@ include './class/include.php';
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
                             <h1 class="heading_primary">Feedback</h1>
                             <ul class="breadcrumbs">

@@ -3,6 +3,8 @@
 include './class/include.php';
 $id = $_GET['id'];
 $FACILITY = new Facility($id);
+$BANNER = new Banner(3);
+
 ?>
 <html lang="en">
 
@@ -39,7 +41,7 @@ $FACILITY = new Facility($id);
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
                             <h1 class="heading_primary"><?php echo $FACILITY->title ?></h1>
                             <ul class="breadcrumbs">
