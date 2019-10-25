@@ -1,9 +1,13 @@
 <!DOCTYPE html>
+<?php
+include './class/include.php';
+$BANNER = new Banner(7);
+?>
 <html lang="en">
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Conatct Us - The Divine Villa</title>
+        <title>Contact Us - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
@@ -34,7 +38,7 @@
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
                             <h1 class="heading_primary">Contact</h1>
                             <ul class="breadcrumbs">
@@ -105,7 +109,6 @@
                                                     <div class="col-lg-12">
                                                         <span id="capspan" ></span>
                                                     </div>
-
                                                 </div>
                                                 <div class="col-md-6"  >
                                                     <?php include("./contact-form/captchacode-widget.php"); ?>
@@ -116,12 +119,11 @@
                                             <div class="col-md-12">
                                                 <div id="dismessage" align="center" class="msg-success"></div>
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15871.30932094826!2d80.248005!3d6.018429!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf82e4e1180a2380d!2sNature+Trails+Boutique+Hotel!5e0!3m2!1sen!2s!4v1480572074037" width="100%" height="800" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15871.269434566286!2d80.278485!3d6.0197946!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1e62e2ed5e3b1df8!2sVilla%20The%20Divine!5e0!3m2!1sen!2slk!4v1568331501001!5m2!1sen!2slk" width="100%" height="1000" frameborder="0" style="border:0" allowfullscreen></iframe>
                                 </div>
                             </div> 
                             <div class="empty-space"></div>

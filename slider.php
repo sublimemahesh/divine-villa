@@ -1,6 +1,5 @@
 <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-alias="home-1"
      data-source="gallery"
-     style="padding:0px;background-image:url('images/slides/slider1.jpg');background-repeat:no-repeat;background-size:cover;background-position:center center;">
     <!-- START REVOLUTION SLIDER 5.4.7.4 fullwidth mode -->
     <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.7.4">
         <ul>    <!-- SLIDE  -->

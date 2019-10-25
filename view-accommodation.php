@@ -3,6 +3,7 @@
 include './class/include.php';
 $id = $_GET['id'];
 $ROOM = new Room($id);
+$BANNER = new Banner(2);
 ?>
 <html lang="en">
 
@@ -39,7 +40,7 @@ $ROOM = new Room($id);
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
                             <h1 class="heading_primary"><?php echo $ROOM->title ?></h1>
                             <ul class="breadcrumbs">
@@ -59,12 +60,12 @@ $ROOM = new Room($id);
                             <div class="room-wrapper">
                                 <div class="room_gallery clearfix">
                                     <div class="camera_wrap camera_emboss" id="camera_wrap">
-                                        <?php 
+                                        <?php
                                         $ROOM_PHOTO = new RoomPhoto(NULL);
-                                        foreach ($ROOM_PHOTO->getRoomPhotosById($id) as $room_photo){
-                                        ?>
-                                        <div  data-src="upload/room/gallery/<?php echo $room_photo['image_name'] ?>" ></div>
-                                        <?php }?>
+                                        foreach ($ROOM_PHOTO->getRoomPhotosById($id) as $room_photo) {
+                                            ?>
+                                            <div  data-src="upload/room/gallery/<?php echo $room_photo['image_name'] ?>" ></div>
+                                        <?php } ?>
                                     </div>
                                 </div>
                                 <div class="title-share clearfix">

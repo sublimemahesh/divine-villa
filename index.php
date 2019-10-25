@@ -5,6 +5,8 @@ $PAGES = new Page(1);
 ?>
 <html lang="en">
 
+    
+    
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>The Divine Villa</title>
@@ -203,22 +205,24 @@ $PAGES = new Page(1);
                                         <div class="item  ">
                                             <?php
                                             $FACILITY = new Facility(NULL);
-                                            foreach ($FACILITY->all() as $facility) {
-                                                ?>
-                                                <div class="post col-sm-6 col-md-3">
-                                                    <div class="inner">
-                                                        <div class="thumbnail">
-                                                            <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><img src="upload/facility/<?php echo $facility['image_name'] ?>" alt=""></a>
-                                                        </div>
-                                                        <div class="content">
-                                                            <h3 class="title"> <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h3>
-                                                            <div class="summary"><?php echo $facility['short_description'] ?>
-                                                                <a href="view-facility.php?id=<?php echo $facility['id'] ?>" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                            foreach ($FACILITY->all() as $key => $facility) {
+                                                if ($key < 8) {
+                                                    ?>
+                                                    <div class="post col-sm-6 col-md-3">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><img src="upload/facility/<?php echo $facility['image_name'] ?>" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h3 class="title"> <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h3>
+                                                                <div class="summary"><?php echo $facility['short_description'] ?>
+                                                                    <a href="view-facility.php?id=<?php echo $facility['id'] ?>" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <?php
+                                                    <?php
+                                                }
                                             }
                                             ?>
                                         </div>
@@ -331,8 +335,9 @@ $PAGES = new Page(1);
 
                     <div class="empty-space"></div>
                     <div class="container">
-                        <div class="sc-heading style-02">
-                            <h3 class="title" style="color: #6e2759;">Villa Equipment</h3>
+                        <div class="sc-heading style-01 text-center">
+                            <h3 class="title">Villa Equipment</h3>
+                            <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
                         </div>
                         <div class="sc-list-info">
                             <div class="row">
@@ -359,6 +364,7 @@ $PAGES = new Page(1);
                                         <li><img src="images/facilities//002-cctv.png">CCTV</li>
                                         <li><img src="images/facilities/002-lock.png">Security </li>
                                         <li><img src="images/facilities/001-car.png"> Car Park </li>
+                                        <li><img src="images/facilities-2/dinning.png"> Dining </li>
                                     </ul>
                                 </div>
                             </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 include './class/include.php';
+$BANNER = new Banner(4);
 ?>
 <html lang="en">
 
@@ -35,7 +36,7 @@ include './class/include.php';
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
                             <h1 class="heading_primary">Excursions</h1>
                             <ul class="breadcrumbs">
@@ -71,7 +72,7 @@ include './class/include.php';
                                             <div class="content">
                                                 <h3 class="title"> <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></h3>
                                                 <div class="summary text-justify">
-                                                    <?php echo  $attraction['short_description']  ?>... </div>
+                                                    <?php echo $attraction['short_description'] ?>... </div>
                                                 <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>" class="read-more more-info">More Info</a>
                                             </div>
                                         </div>
