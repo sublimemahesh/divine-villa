@@ -6,11 +6,11 @@ include './class/include.php';
 
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Conciergerie Services - The Divine Villa</title>
+        <title>Villa Equipment - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
+   <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -39,13 +39,13 @@ include './class/include.php';
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
                         <div class="content container">
-                            <h1 class="heading_primary">Conciergerie Services</h1>
+                            <h1 class="heading_primary">Villa Equipment</h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>
                                 <li class="item"><a href="facilities.php">Services</a></li>
                                 <li class="item"><span class="separator"></span></li>
-                                <li class="item active">Conciergerie Services</li>
+                                <li class="item active">Villa Equipment</li>
                             </ul>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ include './class/include.php';
                 <div class="site-content container">
                     <div class="sc-heading">
                         <p class="first-title">Our</p>
-                        <h3 class="second-title">Conciergerie Services</h3>
+                        <h3 class="second-title">Villa Equipment</h3>
                         <p class="description">Our staff Management  dedicated to provide a Personalized Service <br>
                             will propose you a large variety of Services around the Villa.</p>
 

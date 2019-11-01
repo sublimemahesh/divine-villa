@@ -336,7 +336,7 @@
                         </li>
                     </ul>
                 </li>
-             
+
                 <li class="qqq hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
@@ -496,7 +496,7 @@
                 <li >
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Service</span>
+                        <span>Conciergerie Services</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
@@ -582,7 +582,7 @@
                 <li class="hidden">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
-                        <span>Offer</span>
+                        <span>Villa Equipment</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
@@ -605,7 +605,7 @@
                         </li>
                     </ul>
                 </li> 
-   <li class="qqq">
+                <li class="qqq">
                     <a href="javascript:void(0);" class="menu-toggle">
                         <i class="material-icons">chevron_right</i>
                         <span>Comment</span>

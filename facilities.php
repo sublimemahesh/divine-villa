@@ -2,6 +2,12 @@
 <?php
 include './class/include.php';
 $BANNER = new Banner(3);
+
+
+$id = '';
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+}
 ?>
 <html lang="en">
 
@@ -11,7 +17,7 @@ $BANNER = new Banner(3);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/favicon.png">
+        <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -64,28 +70,58 @@ $BANNER = new Banner(3);
                         <div style="height: 60px;"></div>
                         <div class="row">
                             <?php
-                            $FACILITY = new Facility(NULL);
-                            foreach ($FACILITY->all() as $facility) {
-                                ?>
-                                <div class="col-sm-4">
-                                    <div class="item">
-                                        <a href="view-facility.php?id=<?php echo $facility['id'] ?>">
-                                            <img src="upload/facility/<?php echo $facility['image_name'] ?>" alt="">
-                                        </a>   
-                                        <a href="view-facility.php" class="img-link"></a>
-                                        <div class="content-overlay">
-                                            <h4 class="title"><a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h4>
+                            $FACILITY = new Facility(null);
+                            foreach ($FACILITY->all() as $key => $facility) {
+                                if ($key < 7) {
+                                    ?>
+
+
+                                    <div class="col-sm-4">
+                                        <div class="item">
+                                            <a href="view-facility.php?id=<?php echo $facility['id'] ?>">
+                                                <img src="upload/facility/<?php echo $facility['image_name'] ?>" alt="">
+                                            </a>   
+                                            <a href="view-facility.php?id=<?php echo $facility['id'] ?>" class="img-link"></a>
+                                            <div class="content-overlay">
+                                                <h4 class="title"><a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h4>
+                                            </div>
                                         </div>
                                     </div>
+
+                                    <?php
+                                }
+                            }
+                            ?>
+                            <div class="col-sm-4">
+                                <div class="item">
+                                    <a href="view-conciergerie-service.php">
+                                        <img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt="">
+                                    </a>   
+                                    <a href="view-conciergerie-service.php" class="img-link"></a>
+                                    <div class="content-overlay">
+                                        <h4 class="title"><a href="view-conciergerie-service.php">Conciergerie Services</a></h4>
+                                    </div>
                                 </div>
-                            <?php } ?>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="item">
+                                    <a href="view-villa-equipment.php">
+                                        <img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt="">
+                                    </a>   
+                                    <a href="view-villa-equipment.php" class="img-link"></a>
+                                    <div class="content-overlay">
+                                        <h4 class="title"><a href="view-villa-equipment.php">Villa Equipment</a></h4>
+                                    </div>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>
                 </div>
                 <div class="empty-space"></div>
                 <!-- Footer -->
-                <?php include './footer.php'; ?>
+<?php include './footer.php'; ?>
             </div><!-- wrapper-container -->
 
             <div id="back-to-top">

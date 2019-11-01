@@ -13,7 +13,7 @@ $PAGES = new Page(1);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/favicon.png">
+        <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" type="text/css" href="css/libs/revolution/settings.css">
@@ -206,7 +206,7 @@ $PAGES = new Page(1);
                                             <?php
                                             $FACILITY = new Facility(NULL);
                                             foreach ($FACILITY->all() as $key => $facility) {
-                                                if ($key < 8) {
+                                                if ($key < 6) {
                                                     ?>
                                                     <div class="post col-sm-6 col-md-3">
                                                         <div class="inner">
@@ -225,6 +225,36 @@ $PAGES = new Page(1);
                                                 }
                                             }
                                             ?>
+                                                   <div class="post col-sm-6 col-md-3">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="view-conciergerie-service.php"><img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
+                                                                <div class="summary">Our staff Management dedicated to provide a Personalized Service ...
+                                                                    <a href="view-conciergerie-service.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            
+                                                   <div class="post col-sm-6 col-md-3">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="view-villa-equipment.php"><img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h3 class="title"> <a href="view-villa-equipment.php">Villa Equipment</a></h3>
+                                                                <div class="summary">Ammenities and Equipment
+                                                                    <a href="view-villa-equipment.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            
+                                            
+                                            
                                         </div>
                                     </div>
                                 </div>
