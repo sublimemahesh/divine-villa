@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <?php
 include './class/include.php';
+$BANNER = new Banner(8);
 ?>
 <html lang="en">
 
@@ -8,9 +9,9 @@ include './class/include.php';
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Villa Equipment - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-     <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+        <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -37,7 +38,7 @@ include './class/include.php';
             <!-- Main Content -->
             <div id="main-content">
                 <div class="page-title">
-                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5">
+                    <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>)">
                         <div class="content container">
                             <h1 class="heading_primary">Villa Equipment</h1>
                             <ul class="breadcrumbs">
@@ -55,30 +56,30 @@ include './class/include.php';
                     <div class="sc-heading">
                         <p class="first-title">Our</p>
                         <h3 class="second-title">Villa Equipment</h3>
-                        <p class="description">Our staff Management  dedicated to provide a Personalized Service <br>
-                            will propose you a large variety of Services around the Villa.</p>
+                        <p class="description">A quick service available at any time to fulfill <br>
+                           any kind of guest requirement .</p>
 
                     </div>
                     <div style="height: 60px;"></div>
                     <div class="events-content">
                         <div class="sc-events list-style">
                             <?php
-                            $SERVICE = new Service(NULL);
-                            foreach ($SERVICE->all() as $service) {
+                            $VILLAEQUIPMENT = new VillaEquipment(NULL);
+                            foreach ($VILLAEQUIPMENT->all() as $euipment) {
                                 ?>
                                 <div class="event">
                                     <div class="row tm-flex">
                                         <div class="col-lg-4 col-md-5">
                                             <div class="thumbnail">
-                                                <img src="upload/service/<?php echo $service['image_name'] ?>" alt="">
+                                                <img src="./upload/villa-equipment/<?php echo $euipment['image_name'] ?>" alt="">
                                             </div>
                                         </div>
                                         <div class="col-lg-8 col-md-7">
                                             <div class="event-content">
-                                                <h3 class="title"><?php echo $service['title'] ?></h3>
+                                                <h3 class="title"><?php echo $euipment['title'] ?></h3>
                                                 <div class="event-desc">
                                                     <p> 
-                                                        <?php echo $service['short_description'] ?> 
+                                                        <?php echo $euipment['short_description'] ?> 
                                                     </p>   
                                                 </div>
                                             </div>
