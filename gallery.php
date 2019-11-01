@@ -10,7 +10,7 @@ $BANNER = new Banner(5);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/favicon.png">
+        <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->

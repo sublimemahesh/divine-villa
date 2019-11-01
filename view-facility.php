@@ -14,7 +14,7 @@ $BANNER = new Banner(3);
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/favicon.png">
+ <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -79,8 +79,8 @@ $BANNER = new Banner(3);
                                 </div>
                                 <ul class="slides owl-theme owl-carousel">
                                     <?php
-                                    $FACILITY = new Facility(NULL);
-                                    foreach ($FACILITY->all() as $facility) {
+                                    $FACILITYS = new Facility(NULL);
+                                    foreach ($FACILITYS->all() as $facility) { 
                                         ?>
                                         <li>
                                             <div class="post ">
