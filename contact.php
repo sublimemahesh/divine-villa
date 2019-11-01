@@ -9,10 +9,9 @@ $BANNER = new Banner(7);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Contact Us - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
- <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
-
+   <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
         <link href="contact-form/style.css" rel="stylesheet" type="text/css"/>

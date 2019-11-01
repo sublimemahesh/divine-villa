@@ -11,9 +11,10 @@ $BANNER = new Banner(2);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Accommodation - <?php echo $ROOM->title ?>The Devine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+   <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-        <link rel="shortcut icon" href="images/icons/divine-villa-icon.ico">
+         <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+         
         <link rel="stylesheet" href="css/libs/jquery-ui/jquery-ui.min.css">
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
