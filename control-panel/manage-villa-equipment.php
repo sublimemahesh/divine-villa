@@ -108,7 +108,7 @@ include_once(dirname(__FILE__) . '/auth.php');
         <script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
         <script src="js/pages/ui/dialogs.js"></script>
         <script src="js/demo.js"></script>
-        <script src="delete/js/service.js" type="text/javascript"></script>
+        <script src="delete/js/villa-equipment.js" type="text/javascript"></script>
 
 
     </body>

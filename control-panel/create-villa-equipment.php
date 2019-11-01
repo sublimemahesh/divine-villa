@@ -47,7 +47,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                                 </ul>
                             </div>
                             <div class="body">
-                                <form class="form-horizontal"  method="post" id="form-data" action="./post-and-get/villa-equipment.php"  enctype="multipart/form-data"> 
+                                <form class="form-horizontal"  method="post" id="form-data"  enctype="multipart/form-data"> 
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
@@ -138,7 +138,7 @@ include_once(dirname(__FILE__) . '/auth.php');
 
           
         </script>
-        <script src="js/ajax/services.js" type="text/javascript"></script>
+        <script src="js/ajax/villa-equipment.js" type="text/javascript"></script>
     </body>
 
 </html>

@@ -137,7 +137,7 @@ $VILLAEQUIPMENT= new VillaEquipment($id);
 
 
         </script>
-        <script src="js/ajax/services.js" type="text/javascript"></script>
+        <script src="js/ajax/villa-equipment.js" type="text/javascript"></script>
     </body>
 
 </html>

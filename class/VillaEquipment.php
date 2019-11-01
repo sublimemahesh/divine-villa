@@ -178,35 +178,35 @@ class VillaEquipment {
         return $db->readQuery($query);
     }
 
-    public function deletePhotos() {
-
-
-
-        $SERVICE_PHOTO = new ServicePhoto(NULL);
-
-
-
-        $allPhotos = $SERVICE_PHOTO->getServicePhotosById($this->id);
-
-
-
-        foreach ($allPhotos as $photo) {
-
-
-
-            $IMG = $SERVICE_PHOTO->image_name = $photo["image_name"];
-
-            unlink(Helper::getSitePath() . "upload/villa-equipment/gallery/" . $IMG);
-
-            unlink(Helper::getSitePath() . "upload/villa-equipment/gallery/thumb/" . $IMG);
-
-
-
-            $SERVICE_PHOTO->id = $photo["id"];
-
-            $SERVICE_PHOTO->delete();
-        }
-    }
+//    public function deletePhotos() {
+//
+//
+//
+//        $SERVICE_PHOTO = new ServicePhoto(NULL);
+//
+//
+//
+//        $allPhotos = $SERVICE_PHOTO->getServicePhotosById($this->id);
+//
+//
+//
+//        foreach ($allPhotos as $photo) {
+//
+//
+//
+//            $IMG = $SERVICE_PHOTO->image_name = $photo["image_name"];
+//
+//            unlink(Helper::getSitePath() . "upload/villa-equipment/gallery/" . $IMG);
+//
+//            unlink(Helper::getSitePath() . "upload/villa-equipment/gallery/thumb/" . $IMG);
+//
+//
+//
+//            $SERVICE_PHOTO->id = $photo["id"];
+//
+//            $SERVICE_PHOTO->delete();
+//        }
+//    }
 
     public function arrange($key, $img) {
 
