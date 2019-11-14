@@ -226,19 +226,7 @@ $PAGES = new Page(1);
                                                 }
                                             }
                                             ?>
-                                                   <div class="post col-sm-6 col-md-3">
-                                                        <div class="inner">
-                                                            <div class="thumbnail">
-                                                                <a href="view-conciergerie-service.php"><img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="content">
-                                                                <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
-                                                                <div class="summary">Our staff Management dedicated to provide a Personalized Service ...
-                                                                    <a href="view-conciergerie-service.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                           
                                             
                                                    <div class="post col-sm-6 col-md-3">
                                                         <div class="inner">
@@ -249,6 +237,19 @@ $PAGES = new Page(1);
                                                                 <h3 class="title"> <a href="view-villa-equipment.php">Villa Equipment</a></h3>
                                                                 <div class="summary">Ammenities and Equipment
                                                                     <a href="view-villa-equipment.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="post col-sm-6 col-md-3">
+                                                        <div class="inner">
+                                                            <div class="thumbnail">
+                                                                <a href="view-conciergerie-service.php"><img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt=""></a>
+                                                            </div>
+                                                            <div class="content">
+                                                                <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
+                                                                <div class="summary">Our staff Management dedicated to provide a Personalized Service ...
+                                                                    <a href="view-conciergerie-service.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -395,7 +396,7 @@ $PAGES = new Page(1);
                                         <li><img src="images/facilities//002-cctv.png">CCTV</li>
                                         <li><img src="images/facilities/002-lock.png">Security </li>
                                         <li><img src="images/facilities/001-car.png"> Car Park </li>
-                                        <li><img src="images/facilities-2/dinning.png"> Dining </li>
+                                        <li><img src="images/facilities-2/dinning.png"> Meals </li>
                                     </ul>
                                 </div>
                             </div>
