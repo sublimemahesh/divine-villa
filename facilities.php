@@ -92,6 +92,17 @@ if (isset($_GET['id'])) {
                                 }
                             }
                             ?>
+                                   <div class="col-sm-4">
+                                <div class="item">
+                                    <a href="view-villa-equipment.php">
+                                        <img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt="">
+                                    </a>   
+                                    <a href="view-villa-equipment.php" class="img-link"></a>
+                                    <div class="content-overlay">
+                                        <h4 class="title"><a href="view-villa-equipment.php">Villa Equipment</a></h4>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-sm-4">
                                 <div class="item">
                                     <a href="view-conciergerie-service.php">
@@ -103,17 +114,7 @@ if (isset($_GET['id'])) {
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="item">
-                                    <a href="view-villa-equipment.php">
-                                        <img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt="">
-                                    </a>   
-                                    <a href="view-villa-equipment.php" class="img-link"></a>
-                                    <div class="content-overlay">
-                                        <h4 class="title"><a href="view-villa-equipment.php">Villa Equipment</a></h4>
-                                    </div>
-                                </div>
-                            </div>
+                     
 
 
                         </div>

@@ -61,7 +61,7 @@ $BANNER = new Banner(8);
 
                     </div>
                     <div style="height: 60px;"></div>
-                    <div class="events-content">
+<!--                    <div class="events-content">
                         <div class="sc-events list-style">
                             <?php
                             $VILLAEQUIPMENT = new VillaEquipment(NULL);
@@ -89,7 +89,37 @@ $BANNER = new Banner(8);
                                 </div>
                             <?php } ?>
                         </div>
-                    </div>
+                    </div>-->
+ <div class="sc-list-info">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities/001-swimmer.png">Infinity Swiming Pool </li>
+                                        <li><img src="images/facilities/005-wifi.png">Wifi </li>
+                                        <li><img src="images/facilities/004-tv.png">  SAT Tv</li>
+                                        <li><img src="images/facilities/003-safety-box.png"> Safety Locker </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities/004-billiard.png">Snooker </li>
+                                        <li><img src="images/facilities/food.png">Nespresso Corner </li>
+                                        <li><img src="images/facilities/006-wheelchair.png">Disable Access </li>
+                                        <li><img src="images/facilities/003-ac.png">A/C </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+                                        <li><img src="images/facilities//002-cctv.png">CCTV</li>
+                                        <li><img src="images/facilities/002-lock.png">Security </li>
+                                        <li><img src="images/facilities/001-car.png"> Car Park </li>
+                                        <li><img src="images/facilities-2/dinning.png"> Meals </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
             <!-- Footer -->
