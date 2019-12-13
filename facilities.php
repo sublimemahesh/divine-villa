@@ -63,8 +63,8 @@ if (isset($_GET['id'])) {
                             <p class="first-title">Villa</p>
                             <h3 class="second-title"> Facilities</h3>
 
-                            <p class="description">We will take care of your stay and     <br>
-                                make sure you will experience a unique holiday rental experience.    …..</p>
+                            <p class="description">We offer, an exceptional villa management and comprehensive      <br>
+                                services which are tailored specifically to the requirements of each individual guest..</p>
 
                         </div>
                         <div style="height: 60px;"></div>

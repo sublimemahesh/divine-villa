@@ -53,8 +53,8 @@ $BANNER = new Banner(4);
                         <div class="sc-heading">
                             <p class="first-title">Top</p>
                             <h3 class="second-title">Excursions</h3>
-                            <p class="description">Lorem ipsum dolor sit amet, consecte sit amet,  <br>
-                                Lorem ipsum dolor sit amet, consecte sit amet consecte sit amet,</p>
+                            <p class="description">We work only with professional and well established companies. We may arrange special transport and excursions,    <br>
+                              our staff will help and guide you on the excursions available around our villa and in the Southern Province   </p>
                         </div>
                         <div style="height: 60px;"></div>
 

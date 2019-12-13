@@ -39,11 +39,11 @@ $BANNER = new Banner(7);
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
-                            <h1 class="heading_primary">Contact</h1>
+                            <h1 class="heading_primary">Contact Us</h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>
-                                <li class="item active">Contact</li>
+                                <li class="item active">Contact Us</li>
                             </ul>
                         </div>
                     </div>
