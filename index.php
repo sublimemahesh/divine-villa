@@ -5,13 +5,13 @@ $PAGES = new Page(1);
 ?>
 <html lang="en">
 
-    
-    
+
+
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-           <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
 
         <!-- Favicons -->
         <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
@@ -151,7 +151,7 @@ $PAGES = new Page(1);
                             <div class="container">
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Accommodations</h3>
-                                    <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
+                                    <p class="description">For anything that brings couple, family, friends together to celebrate an occasion.</p>
                                 </div>
                                 <div class="sc-rooms style-01">
                                     <div class="rooms-content layout-grid style-01">
@@ -199,7 +199,9 @@ $PAGES = new Page(1);
                                 <div class="empty-space"></div>
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Villa Facilities</h3>
-                                    <p class="description">We offer, an exceptional villa management and comprehensive services which are tailored specifically to the requirements of each individual guest. </p>
+                                    <p class="description">
+                                        We offer, an exceptional villa management and comprehensive services which are tailored specifically to the requirements of each individual guest.
+                                    </p>
                                 </div>
                                 <div class="sc-posts style-01">
                                     <div class="row">
@@ -226,37 +228,37 @@ $PAGES = new Page(1);
                                                 }
                                             }
                                             ?>
-                                           
-                                            
-                                                   <div class="post col-sm-6 col-md-3">
-                                                        <div class="inner">
-                                                            <div class="thumbnail">
-                                                                <a href="view-villa-equipment.php"><img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="content">
-                                                                <h3 class="title"> <a href="view-villa-equipment.php">Villa Equipment</a></h3>
-                                                                <div class="summary">Ammenities and Equipment
-                                                                    <a href="view-villa-equipment.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
-                                                                </div>
-                                                            </div>
+
+
+                                            <div class="post col-sm-6 col-md-3">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="view-villa-equipment.php"><img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title"> <a href="view-villa-equipment.php">Villa Equipment</a></h3>
+                                                        <div class="summary">Ammenities and Equipment
+                                                            <a href="view-villa-equipment.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
                                                         </div>
                                                     </div>
-                                                    <div class="post col-sm-6 col-md-3">
-                                                        <div class="inner">
-                                                            <div class="thumbnail">
-                                                                <a href="view-conciergerie-service.php"><img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt=""></a>
-                                                            </div>
-                                                            <div class="content">
-                                                                <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
-                                                                <div class="summary">Our staff Management dedicated to provide a Personalized Service ...
-                                                                    <a href="view-conciergerie-service.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
-                                                                </div>
-                                                            </div>
+                                                </div>
+                                            </div>
+                                            <div class="post col-sm-6 col-md-3">
+                                                <div class="inner">
+                                                    <div class="thumbnail">
+                                                        <a href="view-conciergerie-service.php"><img src="upload/facility/-468900717_190734240189_1571808247_n.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h3 class="title"> <a href="view-conciergerie-service.php">Conciergerie Services</a></h3>
+                                                        <div class="summary">Our staff Management dedicated to provide a Personalized Service ...
+                                                            <a href="view-conciergerie-service.php" style="color: white;"><p class="pull-right"><b>View More </b></p></a>
                                                         </div>
                                                     </div>
-                                            
-                                            
-                                            
+                                                </div>
+                                            </div>
+
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -332,7 +334,7 @@ $PAGES = new Page(1);
                                 <div class="empty-space"></div>
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Top Excursion</h3>
-                                    <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
+                                    <p class="description">  We create truly memorable experiences that you will cherish forever..</p>
                                 </div>
                                 <div class="sc-posts style-01 auto-height">
                                     <div class="item row">
@@ -369,34 +371,40 @@ $PAGES = new Page(1);
                     <div class="container">
                         <div class="sc-heading style-01 text-center">
                             <h3 class="title">Villa Equipment</h3>
-                            <p class="description">For anything that brings people together to celebrate an occasion, we create truly memorable experiences that you will cherish forever</p>
+                            <p class="description">Home sweet home.</p>
                         </div>
                         <div class="sc-list-info">
                             <div class="row">
                                 <div class="col-sm-4">
                                     <ul>
                                         <li><img src="images/facilities/001-swimmer.png">Infinity Swiming Pool </li>
-                                        <li><img src="images/facilities/005-wifi.png">Wifi </li>
-                                        <li><img src="images/facilities/004-tv.png">  SAT Tv</li>
-                                        <li><img src="images/facilities/003-safety-box.png"> Safety Locker </li>
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4">
-                                    <ul>
                                         <li><img src="images/facilities/004-billiard.png">Snooker </li>
                                         <li><img src="images/facilities/food.png">Nespresso Corner </li>
-                                        <li><img src="images/facilities/006-wheelchair.png">Disable Access </li>
-                                        <li><img src="images/facilities/003-ac.png">A/C </li>
+                                        <li><img src="images/facilities//bed-lock.png">Disable Access  & Bedroom  </li>
+                                        <li><img src="images/facilities/babycost.png">Baby Cost & High Char  </li>
+
+
+
 
                                     </ul>
                                 </div>
                                 <div class="col-sm-4">
                                     <ul>
-                                        <li><img src="images/facilities//002-cctv.png">CCTV</li>
-                                        <li><img src="images/facilities/002-lock.png">Security </li>
+                                        <li><img src="images/facilities/005-wifi.png">Wifi </li>
+                                        <li><img src="images/facilities/printer.png">Printer & Scanner    </li>
+                                        <li><img src="images/facilities/003-ac.png">A/C </li> 
+                                        <li><img src="images/facilities/004-tv.png"> SAT TV $ DVD Player </li>
+                                        <li><img src="images/facilities/generator.png"> Back-Up Generator   </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul>
+
+                                        <li><img src="images/facilities/lock.png"> Safety Locker  </li> 
                                         <li><img src="images/facilities/001-car.png"> Car Park </li>
-                                        <li><img src="images/facilities-2/dinning.png"> Meals </li>
+                                        <li><img src="images/facilities/002-cctv.png">CCTV & Security  </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -408,7 +416,7 @@ $PAGES = new Page(1);
                         <div class="sc-content-overlay">
                             <div class="container rectangle-overlay">
                                 <div class="sc-testimonials style-01">
-                                    <h3 class="heading">Comments from Guests</h3>
+                                    <h3 class="heading">Guest Testimonials & Reviews</h3>
                                     <div class="testimonial-slider" data-itemsvisible="3" data-nav="false">
                                         <?php
                                         $COMMENT = new Comments(NULL);
