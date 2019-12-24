@@ -104,7 +104,7 @@ $PAGES = new Page(1);
 
                                     </ul>
                                     <p class="hb-submit">
-                                        <span class="contact-info">Need Help: <span>(+94) 71 580 0337</span></span>
+                                   
                                         <button type="submit">Check Availability</button>
                                     </p>
                                 </form>
@@ -153,6 +153,39 @@ $PAGES = new Page(1);
                                     <h3 class="title">Accommodations</h3>
                                     <p class="description">For anything that brings couple, family, friends together to celebrate an occasion.</p>
                                 </div>
+                                <div class="sc-events list-style">
+                                    <div class="event">
+                                        <div class="row tm-flex">
+                                            <div class="col-lg-4 col-md-5">
+                                                <div class="thumbnail">
+                                                    <a href=""><img src="images/home/full-villa.jpg" alt=""></a>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-8 col-md-5">
+                                                <div class="event-content">
+                                                    <h3 class="title"><a href="">Full  Villa</a></h3>
+                                                    <ul style="background-color: #00000030;padding: 5px; width: 30%; border-radius: 4px;">
+                                                        <li style="float: left; padding-right: 10px;color: black">
+                                                            <i class="fa fa-user"></i>   Adults : 4 
+                                                        </li>
+                                                        <li  style="color: black">
+                                                            <i class="fa fa-child"></i>   Child : 4 
+                                                        </li>
+                                                    </ul>
+                                                    <div class="event-desc">
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies. </div>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mattis eleifend lorem nec ultricies.
+                                                </div>
+                                                <div class="room-meta clearfix">
+                                                    <a href="" class="btn-icon">Read more</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="sc-rooms style-01">
                                     <div class="rooms-content layout-grid style-01">
                                         <div class="sc-room style-01">
@@ -172,7 +205,16 @@ $PAGES = new Page(1);
                                                                     <h3 class="room-title">
                                                                         <a href="view-accommodation.php?id=<?php echo $room['id'] ?>"><?php echo $room['title'] ?></a>
                                                                     </h3>
-                                                                    <div class="room-price">From: <span class="price">$ <?php echo number_format($room['price'], 2) ?></span></div>
+                                                                    <div class="room-price"> 
+                                                                        <ul style="background-color: #00000030;padding: 5px; width: 80%; border-radius: 4px;">
+                                                                            <li style="float: left; padding-right: 10px;color: black">
+                                                                                <i class="fa fa-user"></i>   Adults : <?php echo $room['no_of_adults'] ?>
+                                                                            </li>
+                                                                            <li  style="color: black">
+                                                                                <i class="fa fa-child"></i>   Child : <?php echo $room['no_of_children'] ?>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
                                                                     <p class="room-description text-justify">
                                                                         <?php echo substr($room['short_description'], 0, 120) ?>...
                                                                     </p>

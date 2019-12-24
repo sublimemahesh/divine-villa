@@ -42,7 +42,7 @@ $BANNER = new Banner(4);
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
-                            <h1 class="heading_primary"><?php echo $ATTRACTION->title ?></h1>
+                            <h1 class="heading_primary">Excursion</h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>

@@ -1,7 +1,6 @@
 <?php
 include_once(dirname(__FILE__) . '/../class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
-
 ?> 
 <!DOCTYPE html>
 <html>
@@ -46,8 +45,8 @@ include_once(dirname(__FILE__) . '/auth.php');
                             <div class="body">
                                 <!--                                <div class="table-responsive">-->
                                 <div>
-                                   
-                                         <div class="row clearfix">
+
+                                    <div class="row clearfix">
                                         <?php
                                         $FACILITY = Facility::all();
                                         if (count($FACILITY) > 0) {
@@ -62,7 +61,8 @@ include_once(dirname(__FILE__) . '/auth.php');
                                                         <div class="d">
                                                             <a href="#"  class="delete-facility" data-id="<?php echo $facility['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a> | 
                                                             <a href="edit-facility.php?id=<?php echo $facility['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a> | 
-                                                            <a href="arrange-facility.php">  <button class="glyphicon glyphicon-random arrange-btn"></button></a>
+                                                            <a href="arrange-facility.php">  <button class="glyphicon glyphicon-random arrange-btn"></button></a> | 
+                                                            <a href="view-facility-photo.php?id=<?php echo $facility['id']; ?>">  <button class="glyphicon glyphicon-picture arrange-btn"></button></a>
                                                         </div>
                                                     </div>
                                                 </div>

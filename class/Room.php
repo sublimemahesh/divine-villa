@@ -19,13 +19,15 @@ class Room {
     public $short_description;
     public $description;
     public $no_of_rooms;
+    public $no_of_adults;
+    public $no_of_children;
     public $price;
     public $queue;
 
     public function __construct($id) {
         if ($id) {
 
-            $query = "SELECT `id`,`title`,`image_name`,`short_description`,`description`,`no_of_rooms`,`price`,`queue` FROM `room` WHERE `id`=" . $id;
+            $query = "SELECT `id`,`title`,`image_name`,`short_description`,`description`,`no_of_rooms`,`no_of_adults`,`no_of_children`,`price`,`queue` FROM `room` WHERE `id`=" . $id;
 
             $db = new Database();
 
@@ -33,6 +35,8 @@ class Room {
 
             $this->id = $result['id'];
             $this->title = $result['title'];
+            $this->no_of_adults = $result['no_of_adults'];
+            $this->no_of_children = $result['no_of_children'];
             $this->image_name = $result['image_name'];
             $this->short_description = $result['short_description'];
             $this->description = $result['description'];
@@ -46,7 +50,9 @@ class Room {
 
     public function create() {
 
-        $query = "INSERT INTO `room` (`title`,`image_name`,`short_description`,`description`,`no_of_rooms`,`price`,`queue`) VALUES  ('"
+        $query = "INSERT INTO `room` (`title`,`no_of_adults`,`no_of_children`,`image_name`,`short_description`,`description`,`no_of_rooms`,`price`,`queue`) VALUES  ('"
+                . $this->no_of_adults . "','"
+                . $this->no_of_children . "','"
                 . $this->title . "','"
                 . $this->image_name . "', '"
                 . $this->short_description . "', '"
@@ -86,6 +92,8 @@ class Room {
 
         $query = "UPDATE  `room` SET "
                 . "`title` ='" . $this->title . "', "
+                . "`no_of_adults` ='" . $this->no_of_adults . "', "
+                . "`no_of_children` ='" . $this->no_of_children . "', "
                 . "`image_name` ='" . $this->image_name . "', "
                 . "`short_description` ='" . $this->short_description . "', "
                 . "`description` ='" . $this->description . "', "

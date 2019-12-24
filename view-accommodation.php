@@ -11,10 +11,10 @@ $BANNER = new Banner(2);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Accommodation - <?php echo $ROOM->title ?>The Devine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-         <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
-         
+        <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+
         <link rel="stylesheet" href="css/libs/jquery-ui/jquery-ui.min.css">
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -43,7 +43,7 @@ $BANNER = new Banner(2);
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
-                            <h1 class="heading_primary"><?php echo $ROOM->title ?></h1>
+                            <h1 class="heading_primary">Accommodation</h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>
@@ -115,8 +115,6 @@ $BANNER = new Banner(2);
                                         </div>
                                     </div>
                                 </div>
-
-
                             </div>
                         </main>
                         <aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
@@ -163,7 +161,7 @@ $BANNER = new Banner(2);
                             </div>
                             <div class="wd wd-check-room">
                                 <h3 class="title">CHECK AVAILABILITY</h3>
-                                <form name="search-rooms" class="wd-search-room datepicker" action="http://html.thimpress.com/hotelwp/rooms-search.html">
+                                <form name="search-rooms" class="wd-search-room datepicker" action="#">
                                     <ul class="form-table">
                                         <li class="form-field">
                                             <input type="text" name="check_in_date" id="check_in_date" required class="check_in_date" placeholder="Check in">
@@ -171,20 +169,21 @@ $BANNER = new Banner(2);
                                         <li class="form-field">
                                             <input type="text" name="check_out_date" id="check_out_date" required class="check_out_date " placeholder="Check out">
                                         </li>
-                                        <li class="select-field">
-                                            <select name="adults_capacity" required>
-                                                <option value="">Guest</option>
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
-                                                <option value="7">7</option>
-                                                <option value="8">8</option>
-                                                <option value="9">9</option>
-                                            </select>
+
+                                        <li style="margin-bottom: 15px;">
+                                            <input type="text"  placeholder="Nationality">
                                         </li>
+                                        <li style="margin-bottom: 15px;">
+                                            <input type="number" min="0"  placeholder="Number of Adults">
+                                        </li>
+                                        <li >
+                                            <input type="number" min="0"  placeholder="Number of Childs">
+                                        </li>
+
+
+
+
+
                                     </ul>
                                     <div class="room-submit">
                                         <button class="submit" type="submit">Check Availability</button>

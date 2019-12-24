@@ -9,7 +9,7 @@ $BANNER = new Banner(4);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Excursions - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
         <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
 
@@ -53,16 +53,42 @@ $BANNER = new Banner(4);
                         <div class="sc-heading">
                             <p class="first-title">Top</p>
                             <h3 class="second-title">Excursions</h3>
-                            <p class="description">We work only with professional and well established companies. We may arrange special transport and excursions,    <br>
-                              our staff will help and guide you on the excursions available around our villa and in the Southern Province   </p>
+                            <p class="description">We work only with professional and well established companies. We may arrange special transport and excursions,our staff will help and guide you on the excursions available around our villa and in the Southern Province   </p>
                         </div>
                         <div style="height: 60px;"></div>
 
                         <div class="sc-posts style-01 auto-height">
+                            <center><h2><u>Less than 30 minutes from Villa</u></h2></center>
+
                             <div class="item row">
                                 <?php
                                 $ATTRACTION = new Attraction(NULL);
-                                foreach ($ATTRACTION->all() as $key => $attraction) {
+                                foreach ($ATTRACTION->getAttractionByType(1) as $key => $attraction) {
+                                    ?> 
+                                    <div class="post col-sm-6 col-md-4">
+                                        <div class="inner">
+                                            <div class="thumbnail">
+                                                <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><img src="upload/attraction/<?php echo $attraction['image_name'] ?>" alt=""></a>
+                                            </div>
+                                            <div class="content">
+                                                <h3 class="title"> <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>"><?php echo $attraction['title'] ?></a></h3>
+                                                <div class="summary text-justify">
+                                                    <?php echo $attraction['short_description'] ?>... </div>
+                                                <a href="view-excursion.php?id=<?php echo $attraction['id'] ?>" class="read-more more-info">More Info</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php } ?>
+                            </div>
+
+                        </div>
+                        <div class="sc-posts style-01 auto-height">
+                            <center><h2><u>Around and more than 2 hours from the Villa</u></h2></center>
+
+                            <div class="item row">
+                                <?php
+                                $ATTRACTION = new Attraction(NULL);
+                                foreach ($ATTRACTION->getAttractionByType(2) as $key => $attraction) {
                                     ?> 
                                     <div class="post col-sm-6 col-md-4">
                                         <div class="inner">

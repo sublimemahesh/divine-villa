@@ -7,7 +7,7 @@ include_once(dirname(__FILE__) . '/auth.php');
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Attraction</title>
+        <title>Excursions</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -37,7 +37,7 @@ include_once(dirname(__FILE__) . '/auth.php');
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="header">
-                                <h2>Create Attraction</h2>
+                                <h2>Create Excursions</h2>
                                 <ul class="header-dropdown">
                                     <li class="">
                                         <a href="manage-attraction.php">
@@ -48,6 +48,23 @@ include_once(dirname(__FILE__) . '/auth.php');
                             </div>
                             <div class="body">
                                 <form class="form-horizontal"  method="post"  id="form-data" enctype="multipart/form-data"> 
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+
+                                                <select class="form-control" name="type" id="type">
+                                                    <option value=""> --Please Select the tour type -- </option>
+ 
+                                                        <option value="1"> Less than 30 minutes from Villa  </option> 
+                                                        <option value="2">  Around and more than 2 hours from the Villa  </option> 
+                                              
+
+
+                                                </select>
+                                                <label class="form-label">Excursion Type</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">

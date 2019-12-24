@@ -15,9 +15,9 @@ if (isset($_GET['id'])) {
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Facilities - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-      <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+        <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -63,8 +63,8 @@ if (isset($_GET['id'])) {
                             <p class="first-title">Villa</p>
                             <h3 class="second-title"> Facilities</h3>
 
-                            <p class="description">We offer, an exceptional villa management and comprehensive      <br>
-                                services which are tailored specifically to the requirements of each individual guest..</p>
+                            <p class="description">We offer, an exceptional villa management and comprehensive services.    A tailored service available at any time with dedicated staff including : private chef, villa attendants, gardeners, pool attendant, technician, security
+                            </p>
 
                         </div>
                         <div style="height: 60px;"></div>
@@ -72,7 +72,7 @@ if (isset($_GET['id'])) {
                             <?php
                             $FACILITY = new Facility(null);
                             foreach ($FACILITY->all() as $key => $facility) {
-                                if ($key < 7) {
+                                
                                     ?>
 
 
@@ -90,19 +90,9 @@ if (isset($_GET['id'])) {
 
                                     <?php
                                 }
-                            }
+                           
                             ?>
-                                   <div class="col-sm-4">
-                                <div class="item">
-                                    <a href="view-villa-equipment.php">
-                                        <img src="upload/facility/-312574177_190890566729_1571821570_n.jpg" alt="">
-                                    </a>   
-                                    <a href="view-villa-equipment.php" class="img-link"></a>
-                                    <div class="content-overlay">
-                                        <h4 class="title"><a href="view-villa-equipment.php">Villa Equipment</a></h4>
-                                    </div>
-                                </div>
-                            </div>
+                           
                             <div class="col-sm-4">
                                 <div class="item">
                                     <a href="view-conciergerie-service.php">
@@ -114,7 +104,7 @@ if (isset($_GET['id'])) {
                                     </div>
                                 </div>
                             </div>
-                     
+
 
 
                         </div>
@@ -122,7 +112,7 @@ if (isset($_GET['id'])) {
                 </div>
                 <div class="empty-space"></div>
                 <!-- Footer -->
-<?php include './footer.php'; ?>
+                <?php include './footer.php'; ?>
             </div><!-- wrapper-container -->
 
             <div id="back-to-top">
