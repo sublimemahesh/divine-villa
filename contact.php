@@ -58,7 +58,7 @@ $BANNER = new Banner(7);
                                     <div class="sc-heading">
                                         <p class="first-title">Send a</p>
                                         <h3 class="second-title">Message</h3>
-                                        <p class="description">Do you have anything in your mind to tell us? <br>
+                                        <p class="description">Do you have anything in your mind to tell us? 
                                             Please don't hesitate to get in touch to us via our contact form.</p>
                                     </div>
 

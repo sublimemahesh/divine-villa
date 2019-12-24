@@ -3,8 +3,7 @@
 include './class/include.php';
 $id = $_GET['id'];
 $FACILITY = new Facility($id);
-$BANNER = new Banner(3);
-
+$BANNER = new Banner(3);  
 ?>
 <html lang="en">
 
@@ -12,9 +11,9 @@ $BANNER = new Banner(3);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Facility - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-   <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+        <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -43,7 +42,7 @@ $BANNER = new Banner(3);
                 <div class="page-title">
                     <div class="page-title-wrapper" data-stellar-background-ratio="0.5" style="background-image: url(upload/banner/<?php echo $BANNER->image_name ?>) ">
                         <div class="content container">
-                            <h1 class="heading_primary"><?php echo $FACILITY->title ?></h1>
+                            <h1 class="heading_primary">Facilities</h1>
                             <ul class="breadcrumbs">
                                 <li class="item"><a href="./">Home</a></li>
                                 <li class="item"><span class="separator"></span></li>
@@ -55,50 +54,85 @@ $BANNER = new Banner(3);
                     </div>
                 </div>
 
-                <div class="site-content no-padding">
-                    <div class="page-content">
-                        <div class="container">
-                            <div class="empty-space"></div>
-                            <div class="sc-heading">
-                                <p class="first-title">Best Services</p>
-                                <h3 class="second-title"><?php echo $FACILITY->title ?></h3>
-                            </div>
-                            <div class="about-info row">
-                                <div class="col-sm-12">
-                                    <p>
-                                        <?php echo $FACILITY->description ?>
-                                    </p>
-                                </div>
+                <div class="site-content container">
+                    <div class="row">
+                        <main class="site-main col-sm-12 col-md-9 flex-first">
+                            <div class="blog-single-content">
+                                <article class="post clearfix">
+                                    <div class="post-content">
 
-                            </div>
-                            <div class="empty-space"></div>
-                            <div class="sc-about-slides row">
-                                <div class="sc-heading" style="margin-bottom: 30px">
-                                    <p class="first-title">Other Facilities</p>
 
-                                </div>
-                                <ul class="slides owl-theme owl-carousel">
+                                        <div class="post-summary">
+                                            <div class="sc-heading">
+                                                <p class="first-title">Top </p>
+                                                <h3 class="second-title"><?php echo $FACILITY->title ?></h3>
+
+                                            </div>
+                                            <div class="post-description text-justify">
+                                                <?php echo $FACILITY->description ?> 
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="sc-gallery no-gutter no-filter">
+                                <div class="wrapper-gallery row" itemscope itemtype="">
                                     <?php
-                                    $FACILITYS = new Facility(NULL);
-                                    foreach ($FACILITYS->all() as $facility) { 
-                                        ?>
-                                        <li>
-                                            <div class="post ">
-                                                <div class="inner">
-                                                    <div class="thumbnail">
-                                                        <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><img src="upload/facility/<?php echo $facility['image_name'] ?>" alt=""></a>
-                                                    </div>
-                                                    <div class="content">
-                                                        <h3 class="title"> <a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></h3>
+                                    $FACILITY_PHOTO = new FacilityPhoto(NULL);
+                                    foreach ($FACILITY_PHOTO->getFacilityPhotosByFacility($id) as $key => $facility_photo) {
+                                        $key++;
+
+                                        if ($key == 1) {
+                                            ?>
+                                            <div class="col-md-6">
+                                                <div class="row"> 
+                                                    <div class="col-sm-12">
+                                                        <a href="upload/facility/gallery/<?php echo $facility_photo['image_name'] ?>" class="gallery-popup ">
+                                                            <img src="upload/facility/gallery/thumb/<?php echo $facility_photo['image_name'] ?>" alt=""></a>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                            <?php
+                                        }
+                                    }
+                                    ?>
+                                    <div class="col-md-6">
+                                        <div class="row"> 
+                                            <?php
+                                            $FACILITY_PHOTOS = new FacilityPhoto(NULL);
+                                            foreach ($FACILITY_PHOTOS->getFacilityPhotosByFacility($id) as $key => $facility_photo) {
+                                                $key++;
+                                                if ($key > 1 && $key < 6) {
+                                                    ?>
+                                                    <div class="col-sm-6">
+                                                        <a href="upload/facility/gallery/<?php echo $facility_photo['image_name'] ?>" class="gallery-popup gallery-mg">
+                                                            <img src="upload/facility/gallery/thumb/<?php echo $facility_photo['image_name'] ?>" alt=""></a>
+                                                    </div>
+                                                    <?php
+                                                }
+                                            }
+                                            ?> 
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div> 
+                        </main>
+                        
+                        <aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
+                            <div class="wd wd-categories">
+                                <h3 class="wd-title">More Facilities</h3>
+                                <ul>
+                                    <?php
+                                    $FACILTIES = new Facility(NULL);
+                                    foreach ($FACILTIES->all() as $facility) {
+                                        ?>
+                                    <li><a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></li>
                                     <?php } ?>
                                 </ul>
-                            </div>
-                        </div>
-                        <div class="empty-space"></div>
+                            </div> 
+                        </aside> 
                     </div>
                 </div>
             </div>

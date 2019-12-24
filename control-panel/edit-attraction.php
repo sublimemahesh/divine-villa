@@ -14,7 +14,7 @@ $ATTRACTION = new Attraction($id);
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Attraction</title>
+        <title>Excursion</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -45,7 +45,7 @@ $ATTRACTION = new Attraction($id);
                         <div class="card">
                             <div class="header">
                                 <h2>
-                                    Edit Attraction
+                                    Edit Excursion
                                 </h2>
                                 <ul class="header-dropdown">
                                     <li class="">
@@ -57,7 +57,33 @@ $ATTRACTION = new Attraction($id);
                             </div>
                             <div class="body">
                                 <form class="form-horizontal" method="post"  id="form-data" enctype="multipart/form-data"> 
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
 
+                                                <select class="form-control" name="type" id="type">
+                                                    <option value=""> --Please Select the tour type -- </option>
+                                                    <?php
+                                                    if ($ATTRACTION->type == 1) {
+                                                        ?>
+                                                        <option value="1" selected=""> Less than 30 minutes from Villa  </option> 
+                                                        <option value="2">  Around and more than 2 hours from the Villa  </option> 
+                                                    <?php } else if ($ATTRACTION->type == 2) {
+                                                        ?>
+                                                        <option value="1" > Less than 30 minutes from Villa  </option> 
+                                                        <option value="2" selected="">  Around and more than 2 hours from the Villa  </option> 
+                                                        <?php
+                                                    } else {
+                                                        ?>
+                                                        <option value="1" > Less than 30 minutes from Villa  </option> 
+                                                        <option value="2"  >  Around and more than 2 hours from the Villa  </option> 
+                                                    <?php } ?>
+
+                                                </select>
+                                                <label class="form-label">Excursion Type</label>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">

@@ -1,20 +1,20 @@
 <?php
 include_once(dirname(__FILE__) . '/../class/include.php');
 include_once(dirname(__FILE__) . '/auth.php');
-
 $id = '';
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
 }
-$ATTRACTION_PHOTO = new AttractionPhoto($id);
+$FACILITY = new Facility($id)
 ?> 
-
 <!DOCTYPE html>
+
+
 <html> 
     <head>
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <title>Excursion-Photo</title>
+        <title>Facility photo</title>
         <!-- Favicon-->
         <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
@@ -25,6 +25,7 @@ $ATTRACTION_PHOTO = new AttractionPhoto($id);
         <link href="plugins/sweetalert/sweetalert.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet">
         <link href="css/themes/all-themes.css" rel="stylesheet" />
+
     </head>
 
     <body class="theme-red">
@@ -33,10 +34,9 @@ $ATTRACTION_PHOTO = new AttractionPhoto($id);
         ?>
 
         <section class="content">
-            <div class="container-fluid">  
+            <div class="container-fluid">
                 <?php
                 $vali = new Validator();
-
                 $vali->show_message();
                 ?>
                 <!-- Vertical Layout -->
@@ -44,43 +44,75 @@ $ATTRACTION_PHOTO = new AttractionPhoto($id);
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="card">
                             <div class="header">
-                                <h2>
-                                    Edit Excursion Photo
-                                </h2>
-
+                                <h2>Create Facility Photos</h2>
+                                <ul class="header-dropdown">
+                                    <li class="">
+                                        <a href="manage-facility.php">
+                                            <i class="material-icons">list</i> 
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <div class="body">
-                                <form class="form-horizontal" method="post" action="post-and-get/attraction-photo.php" enctype="multipart/form-data"> 
+                                <form class="form-horizontal"  method="post" action="post-and-get/facility-photo.php" enctype="multipart/form-data"> 
                                     <div class="col-md-12">                                       
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="file" id="image" class="form-control" value="<?php echo $ATTRACTION_PHOTO->image_name; ?>"  name="image">
-                                                <img src="../upload/attraction/gallery/<?php echo $ATTRACTION_PHOTO->image_name; ?>" id="image" class="view-edit-img img img-responsive img-thumbnail" name="image" alt="old image">
+                                                <input type="file" id="image" class="form-control" name="image"  required="true">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
-                                                <input type="text" id="caption" class="form-control"  value="<?php echo $ATTRACTION_PHOTO->caption; ?>"  name="caption"  required="TRUE">
+                                                <input type="text" id="caption" class="form-control" autocomplete="off" name="caption" required="true">
                                                 <label class="form-label">Caption</label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12"> 
-                                        <input type="hidden" id="oldImageName" value="<?php echo $ATTRACTION_PHOTO->image_name; ?>" name="oldImageName"/>
-                                        <input type="hidden" id="id" value="<?php echo $ATTRACTION_PHOTO->id; ?>" name="id"/>
-                                        <input type="hidden" id="authToken" value="<?php echo $_SESSION["authToken"]; ?>" name="authToken"/>
-                                        <button type="submit" class="btn btn-primary m-t-15 waves-effect" name="update" value="update">Save Changes</button>
+                                          <input type="hidden" id="id" value="<?php echo $FACILITY->id; ?>" name="id"/>
+                                        <input type="submit" name="create" class="btn btn-primary m-t-15 waves-effect" value="create"/>
                                     </div>
-                                    <div class="row clearfix">  </div>
-                                    <hr/>
                                 </form>
+                                <div class="row">
+                                </div>
+                                <hr/>
+                                <div class="row clearfix">
+                                    <?php
+                                    $FACILITY_PHOTO = FacilityPhoto::getFacilityPhotosByFacility($id);
+                                    if (count($FACILITY_PHOTO) > 0) {
+                                        foreach ($FACILITY_PHOTO as $key => $facility_photo) {
+                                            ?>
+                                            <div class="col-md-3" id="div<?php echo $facility_photo['id']; ?>">
+                                                <div class="photo-img-container">
+                                                    <img src="../upload/facility/gallery/thumb/<?php echo $facility_photo['image_name']; ?>" class="img-responsive ">
+                                                </div>
+                                                <div class="img-caption">
+                                                    <p class="maxlinetitle"><?php echo $facility_photo['caption']; ?></p>
+                                                    <div class="d">
+                                                        <a href="#" class="delete-facility-photo" data-id="<?php echo $facility_photo['id']; ?>"> <button class="glyphicon glyphicon-trash delete-btn"></button></a>
+                                                        <a href="edit-facility-photo.php?id=<?php echo $facility_photo['id']; ?>"> <button class="glyphicon glyphicon-pencil edit-btn"></button></a>
+                                                        <a href="arrange-facility-photo.php?id=<?php echo $id; ?>">  <button class="glyphicon glyphicon-random arrange-btn"></button></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <?php
+                                        }
+                                    } else {
+                                        ?> 
+                                        <b style="padding-left: 15px;">No slides in the database.</b> 
+                                    <?php } ?> 
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 <!-- #END# Vertical Layout -->
+
             </div>
         </section>
 
@@ -93,6 +125,11 @@ $ATTRACTION_PHOTO = new AttractionPhoto($id);
         <script src="js/demo.js"></script>
         <script src="js/add-new-ad.js" type="text/javascript"></script>
 
+        <script src="plugins/sweetalert/sweetalert.min.js"></script>
+        <script src="plugins/bootstrap-notify/bootstrap-notify.js"></script>
+        <script src="js/pages/ui/dialogs.js"></script>
+        <script src="js/demo.js"></script>
+        <script src="delete/js/facility-photo.js" type="text/javascript"></script>
 
         <script src="tinymce/js/tinymce/tinymce.min.js"></script>
         <script>

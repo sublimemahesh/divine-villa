@@ -8,6 +8,7 @@ if (isset($_POST['create'])) {
     $VALID = new Validator();
 
 
+    $ATTRACTION->type = $_POST['type'];
     $ATTRACTION->title = $_POST['title'];
     $ATTRACTION->short_description = $_POST['short_description'];
     $ATTRACTION->description = $_POST['description'];
@@ -69,7 +70,7 @@ if (isset($_POST['update'])) {
 
     $ATTRACTION = new Attraction($_POST['id']);
 
-
+    $ATTRACTION->type = $_POST['type'];
     $ATTRACTION->image_name = $_POST['oldImageName'];
     $ATTRACTION->title = $_POST['title'];
     $ATTRACTION->short_description = $_POST['short_description'];

@@ -66,6 +66,22 @@ include_once(dirname(__FILE__) . '/auth.php');
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
+                                                <input type="text" id="no_of_adults" class="form-control" autocomplete="off" name="no_of_adults" required="true">
+                                                <label class="form-label">Number of Adults</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" id="no_of_children" class="form-control" autocomplete="off" name="no_of_children" required="true">
+                                                <label class="form-label">Number of Children</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
                                                 <input type="text" id="price" class="form-control" autocomplete="off" name="price" required="true">
                                                 <label class="form-label">Price</label>
                                             </div>

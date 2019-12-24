@@ -13,6 +13,14 @@ $(document).ready(function () {
                 timer: 1500,
                 showConfirmButton: false
             });
+        } else  if (!$('#type').val() || $('#type').val().length === 0) {
+            swal({
+                title: "Error!",
+                text: "Please enter title..!",
+                type: 'error',
+                timer: 1500,
+                showConfirmButton: false
+            });
         } else if (!$('#image').val() || $('#image').val().length === 0) {
             swal({
                 title: "Error!",

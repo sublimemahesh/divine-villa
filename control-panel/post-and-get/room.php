@@ -8,6 +8,8 @@ if (isset($_POST['create'])) {
     $VALID = new Validator();
 
     $ROOM->title = $_POST['title'];
+    $ROOM->no_of_adults = $_POST['no_of_adults'];
+    $ROOM->no_of_children = $_POST['no_of_children'];
     $ROOM->short_description = $_POST['short_description'];
     $ROOM->description = $_POST['description'];
     $ROOM->no_of_rooms = $_POST['no_of_rooms'];
@@ -71,6 +73,8 @@ if (isset($_POST['update'])) {
 
     $ROOM->image_name = $_POST['oldImageName'];
     $ROOM->title = $_POST['title'];
+    $ROOM->no_of_adults = $_POST['no_of_adults'];
+    $ROOM->no_of_children = $_POST['no_of_children'];
     $ROOM->short_description = $_POST['short_description'];
     $ROOM->description = $_POST['description'];
     $ROOM->no_of_rooms = $_POST['no_of_rooms'];

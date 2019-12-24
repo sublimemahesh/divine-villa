@@ -76,6 +76,22 @@ $ROOM = new Room($id);
                                     <div class="col-md-12">
                                         <div class="form-group form-float">
                                             <div class="form-line">
+                                                <input type="text" id="no_of_adults" class="form-control"  value="<?php echo $ROOM->no_of_adults; ?>"  name="no_of_adults"  required="TRUE">
+                                                <label class="form-label">Number of Rooms</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
+                                                <input type="text" id="no_of_children" class="form-control"  value="<?php echo $ROOM->no_of_children; ?>"  name="no_of_children"  required="TRUE">
+                                                <label class="form-label">Number of Rooms</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group form-float">
+                                            <div class="form-line">
                                                 <input type="text" id="price" class="form-control"  value="<?php echo $ROOM->price; ?>"  name="price"  required="TRUE">
                                                 <label class="form-label">Price</label>
                                             </div>

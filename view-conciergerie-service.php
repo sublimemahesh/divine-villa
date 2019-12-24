@@ -56,7 +56,7 @@ $BANNER = new Banner(8);
                     <div class="sc-heading">
                         <p class="first-title">Our</p>
                         <h3 class="second-title">Conciergerie Services</h3>
-                        <p class="description">Our staff Management  dedicated to provide a Personalized Service <br>
+                        <p class="description">Our staff Management  dedicated to provide a Personalized Service 
                             will propose you a large variety of Services around the Villa.</p>
 
                     </div>

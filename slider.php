@@ -45,7 +45,7 @@
                     </h1>
 
                 <!-- LAYER NR. 2 -->
-                <p class="tp-caption   tp-resizeme"
+<!--                <p class="tp-caption   tp-resizeme"
                    id="slide-10-layer-2"
                    data-x="['center','center','center','center']" data-hoffset="['0','0','1','1']"
                    data-y="['middle','middle','middle','middle']" data-voffset="['5','5','-24','12']"
@@ -64,10 +64,10 @@
                    data-paddingleft="[0,0,0,0]"
 
                    style="z-index: 6; white-space: nowrap; font-size: 18px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1);">
-                    <?php echo $slider['description']?>    </p>
+                    <?php echo $slider['description']?>    </p>-->
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption   tp-resizeme  thim-link-slider2"
+<!--                <div class="tp-caption   tp-resizeme  thim-link-slider2"
                      id="slide-10-layer-3"
                      data-x="['center','center','center','center']" data-hoffset="['10','10','0','2']"
                      data-y="['middle','middle','middle','middle']" data-voffset="['105','105','89','114']"
@@ -88,7 +88,7 @@
                      data-paddingleft="[0,0,0,0]"
 
                      style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 1px; font-weight: 400; color: rgba(255,255,255,1);text-transform:uppercase;">
-                    <a href="#">Discover</a></div>
+                    <a href="#">Discover</a></div>-->
             </li>
             <?php }?>
         </ul>
