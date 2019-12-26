@@ -19,11 +19,11 @@
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
-                <h1 class="tp-caption   tp-resizeme"
+                <h3 class="tp-caption   tp-resizeme"
                     id="slide-10-layer-1"
                     data-x="['center','center','center','center']" data-hoffset="['8','8','8','7']"
                     data-y="['middle','middle','middle','middle']" data-voffset="['-109','-109','-109','-62']"
-                    data-fontsize="['66','66','40','30']"
+                    data-fontsize="['50','50','40','30']"
                     data-lineheight="['78','78','50','36']"
                     data-fontweight="['700','700','700','700']"
                     data-width="none"
@@ -35,14 +35,14 @@
 
                     data-frames='[{"delay":900,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":100,"frame":"999","to":"y:-50px;opacity:0;","ease":"nothing"}]'
                     data-textAlign="['center','center','center','center']"
-                    data-paddingtop="[0,0,0,0]"
+                    data-paddingtop="[180,180,0,0]"
                     data-paddingright="[0,0,0,0]"
                     data-paddingbottom="[0,0,0,0]"
                     data-paddingleft="[0,0,0,0]"
 
-                    style="z-index: 5; white-space: nowrap; font-size: 66px; line-height: 78px; font-weight: 700; color: rgba(255,255,255,1);">
+                    style="z-index: 5; white-space: nowrap; font-size: 40px; line-height: 78px; font-weight: 700; color: rgba(255,255,255,1);text-align: center;">
                     <?php echo $slider['title']?>  
-                    </h1>
+                </h3>
 
                 <!-- LAYER NR. 2 -->
 <!--                <p class="tp-caption   tp-resizeme"
