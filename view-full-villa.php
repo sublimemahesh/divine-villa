@@ -139,12 +139,8 @@ $BANNER = new Banner(2);
                                                     <li class="form-field">
                                                         <input type="tel" name="phone" id="phone" required class="phone" placeholder="Your Phone*">
                                                     </li>
-                                                  
                                                     <li class="form-field">
                                                         <input type="text" name="add" id="add" required class="add" placeholder="Your Address*">
-                                                    </li>
-                                                    <li class="form-field">
-                                                        <input type="text" name="add" id="add" required class="add" placeholder="Nationality*">
                                                     </li>
                                                     <li class="form-field">
                                                         <input type="text" name="check_in_date" id="popup_check_in_date" required class="check_in_date" placeholder="Arrival Date">
@@ -173,7 +169,10 @@ $BANNER = new Banner(2);
                                         <li class="form-field">
                                             <input type="text" name="check_out_date" id="check_out_date" required class="check_out_date " placeholder="Check out">
                                         </li>
- 
+
+                                        <li style="margin-bottom: 15px;">
+                                            <input type="text"  placeholder="Nationality">
+                                        </li>
                                         <li style="margin-bottom: 15px;">
                                             <input type="number" min="0"  placeholder="Number of Adults">
                                         </li>
@@ -194,13 +193,11 @@ $BANNER = new Banner(2);
                             <div class="wd wd-categories">
                                 <h3 class="wd-title">Room Types</h3>
                                 <ul>
-                                    <li><a href="#">Full Villa</a></li>
-                                    <?php
-                                    $ROOMS = new Room(NULL);
-                                    foreach ($ROOMS->all() as $room) {
-                                        ?>
-                                        <li><a href="view-accommodation.php?id=<?php echo $room['id'] ?>"><?php echo $room['title'] ?></a></li>
-                                    <?php } ?>
+                                    <li><a href="#">Infinity Room</a></li>
+                                    <li><a href="#">Bawa Room</a></li>
+                                    <li><a href="#">Garden Room</a></li>
+                                    <li><a href="#">Lanka Room</a></li>
+                                    <li><a href="#">Cosy Room</a></li>
                                 </ul>
                             </div>
                         </aside>

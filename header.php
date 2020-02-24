@@ -11,7 +11,7 @@
             </div>
             <div class="width-navigation navigation table-cell">
                 <div class="top-toolbar clearfix">
-                    <div class="toolbar-info pull-left col-sm-4"> <i class="ion-ios-telephone"></i> <span class="label">Need help? Call us now:</span> <a class="value" href="tel:+715800337"> (+94) 71 580 0337</a> </div>
+                    <div class="toolbar-info pull-left col-sm-4"> <i class="ion-ios-telephone"></i> <span class="label">Need help? Call us now:</span> <a class="value" href="tel:<?php echo $MOBILE_NUMBER->title?>"> <?php echo $MOBILE_NUMBER->title?></a> </div>
                     <div class="toolbar-right pull-right col-sm-8">
                         <div class="weather"> Today: <img src="images/icons/weather.png" alt=""> <span class="temperature">28°C</span> </div>
 <!--                        <ul class="top-menu">
@@ -22,13 +22,9 @@
                         <div class="language">
                             <div class="dropdown  translation-links">
                                 
-                                <a href="#" class="dropdown-toggle select united kingdom" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false"   data-lang="English"> <i class="flag-el"></i>English<span class="fa fa-caret-down"></span> </a>
-                                <ul class="dropdown-language">
-                                    <li><a href="#" class="chinese" data-lang="Chinese"><i class="flag-cn"></i>Chaina</a></li>
-                                    <li><a href="#"><i class="flag-de"></i>Deutsch</a></li>
-                                    <li><a href="#"><i class="flag-fr"></i>Français</a></li>
-                                    <li><a href="#"><i class="flag-es"></i>Español</a></li>
-                                </ul>
+                                <a href="#" class="dropdown-toggle select united kingdom" data-hover="dropdown" data-toggle="dropdown" aria-expanded="false"   data-lang="English">English<span class="fa fa-caret-down"></span> </a>
+                               <?php echo $LANGUAGE->description?>
+ 
                             </div>
                         </div>
                     </div>

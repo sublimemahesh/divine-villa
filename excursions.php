@@ -53,12 +53,12 @@ $BANNER = new Banner(4);
                         <div class="sc-heading">
                             <p class="first-title">Top</p>
                             <h3 class="second-title">Excursions</h3>
-                            <p class="description">  We may arrange special transport and excursions, our staff will help and guide you on the excursions available around our villa and in the Southern Province      </p>
+                            <p class="description">    We work only with professional and well established companies.<br> We may arrange special transport and excursions, our staff will help and guide you on the excursions available around our villa and in the Southern Province.     </p>
                         </div>
                         <div style="height: 60px;"></div>
 
                         <div class="sc-posts style-01 auto-height">
-                            <center><h2><u>Less than 30 minutes from Villa</u></h2></center>
+                            <center ><h2 style="color: #6e2759"><u>Less than 30 minutes from Villa</u></h2></center>
 
                             <div class="item row">
                                 <?php
@@ -83,7 +83,7 @@ $BANNER = new Banner(4);
 
                         </div>
                         <div class="sc-posts style-01 auto-height">
-                            <center><h2><u>Around and more than 2 hours from the Villa</u></h2></center>
+                            <center><h2 style="color: #6e2759"><u>Around and more than 2 hours from the Villa</u></h2></center>
 
                             <div class="item row">
                                 <?php
