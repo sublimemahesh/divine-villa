@@ -3,7 +3,7 @@
 include './class/include.php';
 $id = $_GET['id'];
 $FACILITY = new Facility($id);
-$BANNER = new Banner(3);  
+$BANNER = new Banner(3);
 ?>
 <html lang="en">
 
@@ -77,6 +77,49 @@ $BANNER = new Banner(3);
                                 </article>
                             </div>
 
+                            <?php
+                            if ($FACILITY->id == 10) {
+                                ?>
+                                <div class="container">
+
+                                    <div class="sc-list-info">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/001-swimmer.png">Infinity Swiming Pool </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/004-billiard.png">Snooker </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/food.png">Nespresso Corner </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities//bed-lock.png">Disable Access  & Bedroom  </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/babycost.png">Baby Cot & High Chair </li>
+
+
+
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/005-wifi.png">Wifi </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/printer.png">Printer & Scanner    </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/003-ac.png">A/C </li> 
+                                                    <li style="font-size: 15px;"><img src="images/facilities/004-tv.png"> Sat Tv & DVD Player </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/generator.png"> Back-Up Generator   </li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+
+                                                    <li style="font-size: 15px;"><img src="images/facilities/lock.png"> Safety Locker  </li> 
+                                                    <li style="font-size: 15px;"><img src="images/facilities/001-car.png"> Car Park </li>
+                                                    <li style="font-size: 15px;"><img src="images/facilities/002-cctv.png">CCTV & Security  </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php } ?>
                             <div class="sc-gallery no-gutter no-filter">
                                 <div class="wrapper-gallery row" itemscope itemtype="">
                                     <?php
@@ -119,7 +162,7 @@ $BANNER = new Banner(3);
                                 </div>
                             </div> 
                         </main>
-                        
+
                         <aside id="secondary" class="widget-area col-sm-12 col-md-3 sticky-sidebar">
                             <div class="wd wd-categories">
                                 <h3 class="wd-title">More Facilities</h3>
@@ -128,8 +171,9 @@ $BANNER = new Banner(3);
                                     $FACILTIES = new Facility(NULL);
                                     foreach ($FACILTIES->all() as $facility) {
                                         ?>
-                                    <li><a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></li>
+                                        <li><a href="view-facility.php?id=<?php echo $facility['id'] ?>"><?php echo $facility['title'] ?></a></li>
                                     <?php } ?>
+                                    <li><a href="view-conciergerie-service.php">Conciergerie Services</a></li>
                                 </ul>
                             </div> 
                         </aside> 
