@@ -55,93 +55,42 @@ $PAGES = new Page(1);
                     <div class="container">
                         <div class="sc-hb-rooms-search style-01">
                             <div class="hotel-booking-search style-01">
-                                <form action="" class="hb-search-form">
-                                    <ul class="hb-form-table">
-                                        <li><input type="text" id="multidate" class="multidate" value="" data-date-min="6" /></li>
-                                        <li class="hb-form-field hb-form-check-in">
-                                            <div class="label">Check-In</div>
-                                            <div class="hb-form-field-input hb_input_field">
-                                                <input type="text" id="day" class="day" value=""  style="width: 68px;" />
-                                                <input id="month" class="month"  type="text" value="" />
-                                                <input type="hidden" name="check_in_date" id="check_in_date" class="check-date hasDatepicker" value="" />
-                                            </div>
-                                        </li>
+                                <div class="row" style="border: 3px solid #6e2759; padding: 30px;; background: white;">
 
-                                        <li class="hb-form-field hb-form-check-out">
-                                            <div class="label">Check-Out</div>
-                                            <div class="hb-form-field-input hb_input_field">
-                                                <input type="text" id="day2" class="day" value=""  style="width: 83px;" />
-                                                <input id="month2" class="month"  type="text" value="" />
-                                                <input type="hidden" name="check_out_date" id="check_out_date" class="check-date hasDatepicker" value="" />
-                                            </div>
-                                        </li>
 
-                                        <li class="hb-form-field hb-form-number">
-                                            <div class="label">Number</div>
-                                            <div id="guests" class="hb-form-field-input hb_input_field">
-                                                <input type="text" id="number" class="day" value="01" />
-                                                <input class="month" type="text" value="Guests" />
+                                    <div class="col-sm-8">
+                                        <div class="sc-heading style-02">
+                                            <h3 class="title" style="color: #6e2759;">Welcome.</h3>
+                                            <div class="description">
+                                                <?php echo $PAGES->description ?>
                                             </div>
-                                            <div class="hb-form-field-list">
-                                                <div class="hb-form-field-input hb-guest-field">
-                                                    <select name="adults_capacity" tabindex="-1" aria-hidden="true">
-                                                        <option value="47">1</option>
-                                                        <option value="45">2</option>
-                                                        <option value="56">3</option>
-                                                        <option value="57">4</option>
-                                                        <option value="58">5</option>
-                                                        <option value="59">6</option>
-                                                        <option value="60">7</option>
-                                                        <option value="61">8</option>
-                                                        <option value="62">9</option>
-                                                    </select>
-                                                    <span class="name">Guests</span>
-                                                    <span class="number-icons goUp"><i class="ion-plus"></i></span>
-                                                    <span class="number-icons goDown"><i class="ion-minus"></i></span>
-                                                </div>
+                                            <div class="head-button">
+                                                <a href="about.php" class="more-info">More Info</a>
                                             </div>
-                                        </li>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="sc-img-box row">
+                                             
+                                            <div class="col-sm-6 pull-right">
+                                                <a href="#"><img src="images/home/h1-img2.jpg" alt=""></a>
+                                            </div>
+                                            <div class="col-sm-6 pull-right">
+                                                <a href="#"><img src="images/home/h1-img2.jpg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
 
-                                    </ul>
-                                    <p class="hb-submit">
-                                   
-                                        <button type="submit">Check Availability</button>
-                                    </p>
-                                </form>
+
+                                </div> 
                             </div>
                         </div>
                     </div>
 
-                    <div class="empty-space"></div>
+                    
                     <div class="h1-introduce">
                         <div class="container">
-                            <div class="row" style="border: 3px solid #6e2759; padding-top: 15px;padding-bottom: 15px;">
 
-
-                                <div class="col-sm-6">
-                                    <div class="sc-heading style-02">
-                                        <h3 class="title" style="color: #6e2759;">Welcome.</h3>
-                                        <div class="description">
-                                            <?php echo $PAGES->description ?>
-                                        </div>
-                                        <div class="head-button">
-                                            <a href="about.php" class="more-info">More Info</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="sc-img-box row">
-                                        <div class="col-sm-6">
-                                            <a href="#"><img src="images/home/h1-img1.jpg" alt=""></a>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <a href="#"><img src="images/home/h1-img2.jpg" alt=""></a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
                         </div>
                     </div>
                     <div class="empty-space"></div>
@@ -151,7 +100,10 @@ $PAGES = new Page(1);
                             <div class="container">
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Accommodations</h3>
-                                    <p class="description">For anything that brings couple, family, friends together to celebrate an occasion.</p>
+                                    <p class="description">
+
+                                        For anything that brings couple, family, friends together to celebrate an occasion.
+                                    </p>
                                 </div>
                                 <div class="sc-events list-style">
                                     <div class="event">
@@ -167,10 +119,10 @@ $PAGES = new Page(1);
                                                     <h3 class="title"><a href="">Full  Villa</a></h3>
                                                     <ul style="background-color: #00000030;padding: 5px; width: 30%; border-radius: 4px;">
                                                         <li style="float: left; padding-right: 10px;color: black">
-                                                            <i class="fa fa-user"></i>   Adults : 4 
+                                                            <i class="fa fa-user"></i>   Adults : 10 
                                                         </li>
                                                         <li  style="color: black">
-                                                            <i class="fa fa-child"></i>   Child : 4 
+                                                            <i class="fa fa-child"></i>   Child : 8 
                                                         </li>
                                                     </ul>
                                                     <div class="event-desc">
@@ -242,7 +194,9 @@ $PAGES = new Page(1);
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Villa Facilities</h3>
                                     <p class="description">
-                                        We offer, an exceptional villa management and comprehensive services which are tailored specifically to the requirements of each individual guest.
+                                        We offer, an exceptional villa management and comprehensive services. 
+                                        A tailored service available at any time with dedicated staff including : private chef, villa  attendants, gardeners, pool attendant, technician, security
+
                                     </p>
                                 </div>
                                 <div class="sc-posts style-01">
@@ -376,7 +330,9 @@ $PAGES = new Page(1);
                                 <div class="empty-space"></div>
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Top Excursion</h3>
-                                    <p class="description">  We create truly memorable experiences that you will cherish forever..</p>
+                                    <p class="description"> 
+                                        We may arrange special transport and excursions, our staff will help and guide you on the excursions available around our villa and in the Southern Province   
+                                    </p>
                                 </div>
                                 <div class="sc-posts style-01 auto-height">
                                     <div class="item row">
@@ -423,7 +379,7 @@ $PAGES = new Page(1);
                                         <li><img src="images/facilities/004-billiard.png">Snooker </li>
                                         <li><img src="images/facilities/food.png">Nespresso Corner </li>
                                         <li><img src="images/facilities//bed-lock.png">Disable Access  & Bedroom  </li>
-                                        <li><img src="images/facilities/babycost.png">Baby Cost & High Char  </li>
+                                        <li><img src="images/facilities/babycost.png">Baby Cot & High Chair </li>
 
 
 
@@ -435,7 +391,7 @@ $PAGES = new Page(1);
                                         <li><img src="images/facilities/005-wifi.png">Wifi </li>
                                         <li><img src="images/facilities/printer.png">Printer & Scanner    </li>
                                         <li><img src="images/facilities/003-ac.png">A/C </li> 
-                                        <li><img src="images/facilities/004-tv.png"> SAT TV $ DVD Player </li>
+                                        <li><img src="images/facilities/004-tv.png"> Sat Tv & DVD Player </li>
                                         <li><img src="images/facilities/generator.png"> Back-Up Generator   </li>
 
                                     </ul>

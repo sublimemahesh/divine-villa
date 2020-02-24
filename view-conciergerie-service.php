@@ -9,9 +9,9 @@ $BANNER = new Banner(8);
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>Conciergerie Services - The Divine Villa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="theme-color" content="#6e2759">
+        <meta name="theme-color" content="#6e2759">
         <!-- Favicons -->
-          <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
+        <link rel="shortcut icon" href="images/icons/icon-divine-villa.ico">
 
         <!-- REVOLUTION STYLE SHEETS -->
         <link rel="stylesheet" href="css/style.css"><!-- Style -->
@@ -56,8 +56,9 @@ $BANNER = new Banner(8);
                     <div class="sc-heading">
                         <p class="first-title">Our</p>
                         <h3 class="second-title">Conciergerie Services</h3>
-                        <p class="description">Our staff Management  dedicated to provide a Personalized Service 
-                            will propose you a large variety of Services around the Villa.</p>
+                        <p class="description">
+                            Our staff Management  is dedicated to provide you a Personalized Service with a large variety of Services around or in the Villa.
+                        </p>
 
                     </div>
                     <div style="height: 60px;"></div>
