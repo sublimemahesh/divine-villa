@@ -19,29 +19,14 @@
 
 
 
-                        <!--                        <div class="widget-newsletter">
-                        
-                                                    <form action="#" method="post">
-                        
-                                                        <input type="email" name="EMAIL" placeholder="Email" required="">
-                        
-                                                        <button type="submit">subscribe</button>
-                        
-                                                    </form>
-                        
-                                                </div>-->
 
                         <ul class="social-link">
 
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a class="pinterest" href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-skype"></i></a></li>
-
-
-
-
-
+                            <li><a class="facebook" target="_blank" href="<?php echo substr(substr($FACE_BOOK->description,3),0,-4)?>"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="instagram" href="<?php echo substr(substr($INSTERGRAM->description,3),0,-4)?>"><i class="fa fa-instagram"></i></a></li>
+                            <li><a class="pinterest" href="<?php echo substr(substr($TRIPADVISOR->description,3),0,-4)?>"><i class="fa fa-tripadvisor"></i></a></li>
+                            <li><a class="twitter" href="<?php echo substr(substr($PRINTER->description,3),0,-4)?>"><i class="fa fa-pinterest-p"></i></a></li>
+ 
                         </ul>
 
                     </div>
@@ -88,11 +73,11 @@
 
                             <ul class="info">
 
-                                <li class="clearfix"><i class="fa fa-phone"></i><a href="tel:773456789"> (+94) 71 580 0337</a></li>
+                                <li class="clearfix"><i class="fa fa-phone"></i><a href="tel:<?php echo $MOBILE_NUMBER->title?>"> <?php echo $MOBILE_NUMBER->title?></a></li>
 
-                                <li class="clearfix"><i class="fa fa-envelope"></i><a href="mailto:contact@divinevilla.com">contact@divinevilla.com</a></li>
+                                <li class="clearfix"><i class="fa fa-envelope"></i><a href="mailto:<?php echo $EMAIL->title?>"><?php echo $EMAIL->title?></a></li>
 
-                                <li class="clearfix"><i class="fa fa-fax"></i><a href="tel:2245897">(+94) 91 224 5897</a></li>
+                                <li class="clearfix"><i class="fa fa-fax"></i><a href="tel:<?php echo $MOBILE_NUMBER->title?>"><?php echo $MOBILE_NUMBER->title?></a></li>
 
                                 <li class="address clearfix"><i class="fa fa-map-marker"></i> <a href="#">Bokale, pitakoratuwa, Heenatigala</a></li>
 

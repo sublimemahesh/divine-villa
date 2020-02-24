@@ -58,6 +58,7 @@ $BANNER = new Banner(8);
                         <h3 class="second-title">Conciergerie Services</h3>
                         <p class="description">
                             Our staff Management  is dedicated to provide you a Personalized Service with a large variety of Services around or in the Villa.
+
                         </p>
 
                     </div>
@@ -80,7 +81,7 @@ $BANNER = new Banner(8);
                                                 <h3 class="title"><?php echo $service['title'] ?></h3>
                                                 <div class="event-desc">
                                                     <p> 
-                                                        <?php echo $service['short_description'] ?> 
+                                                        <?php echo $service['description'] ?> 
                                                     </p>   
                                                 </div>
                                             </div>

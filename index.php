@@ -2,6 +2,14 @@
 <?php
 include './class/include.php';
 $PAGES = new Page(1);
+$MOBILE_NUMBER = new Page(3);
+$EMAIL = new Page(4);
+$FACE_BOOK = new Page(5);
+$INSTERGRAM = new Page(6);
+$TRIPADVISOR = new Page(7);
+$PRINTER = new Page(8);
+$LANGUAGE= new Page(9);
+ 
 ?>
 <html lang="en">
 
@@ -71,7 +79,7 @@ $PAGES = new Page(1);
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="sc-img-box row">
-                                             
+
                                             <div class="col-sm-6 pull-right">
                                                 <a href="#"><img src="images/home/h1-img2.jpg" alt=""></a>
                                             </div>
@@ -87,7 +95,7 @@ $PAGES = new Page(1);
                         </div>
                     </div>
 
-                    
+
                     <div class="h1-introduce">
                         <div class="container">
 
@@ -102,7 +110,8 @@ $PAGES = new Page(1);
                                     <h3 class="title">Accommodations</h3>
                                     <p class="description">
 
-                                        For anything that brings couple, family, friends together to celebrate an occasion.
+                                        For anything that brings couple, family, friends together to celebrate an occasion
+
                                     </p>
                                 </div>
                                 <div class="sc-events list-style">
@@ -110,7 +119,7 @@ $PAGES = new Page(1);
                                         <div class="row tm-flex">
                                             <div class="col-lg-4 col-md-5">
                                                 <div class="thumbnail">
-                                                    <a href=""><img src="images/home/full-villa.jpg" alt=""></a>
+                                                    <a href="view-full-villa.php"><img src="images/home/full-villa.jpg" alt=""></a>
                                                 </div>
                                             </div>
 
@@ -194,7 +203,7 @@ $PAGES = new Page(1);
                                 <div class="sc-heading style-01 text-center">
                                     <h3 class="title">Villa Facilities</h3>
                                     <p class="description">
-                                        We offer, an exceptional villa management and comprehensive services. 
+                                        We offer, an exceptional villa management and comprehensive services. <br>
                                         A tailored service available at any time with dedicated staff including : private chef, villa  attendants, gardeners, pool attendant, technician, security
 
                                     </p>
